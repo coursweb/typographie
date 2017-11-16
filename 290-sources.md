@@ -4,7 +4,7 @@ title: Sources de fontes
 permalink: /typo/sources/
 ---
 
-Trouver de bonnes fontes sous licence libre:
+## Fontes sous licence libre
 
 Quelques fontes typographiques intéressantes, en majeure partie sous licence libre et/ou gratuites...
 
@@ -40,22 +40,7 @@ Gidole, open-source modern DIN:
 Work Sans:  
 [https://github.com/weiweihuanghuang/Work-Sans](https://github.com/weiweihuanghuang/Work-Sans)
 
-Quelques fonderies Suisses intéressantes:
-
-Swiss Typefaces   
-[https://www.swisstypefaces.com](https://www.swisstypefaces.com)
-
-Fatype
-[https://fatype.com/](https://fatype.com/)
-
-Dinamo Typefaces    
-[http://www.abcdinamo.com/](http://www.abcdinamo.com/)
-
-ECAL Typefaces  
-[https://ecal-typefaces.ch/ ](https://ecal-typefaces.ch/ )
-
-Grilli Type:  
-[https://www.grillitype.com/](https://www.grillitype.com/)
+### Fontes mono-espacées
 
 Deux belles fontes mono-espacées:
 
@@ -64,4 +49,25 @@ Deux belles fontes mono-espacées:
 
 **Source code pro**, par Adobe   
 [https://github.com/adobe-fonts/source-code-pro](https://github.com/adobe-fonts/source-code-pro)
+
+
+
+## Fontes commerciales
+
+Quelques fonderies Suisses intéressantes:
+
+**Swiss Typefaces**   
+[https://www.swisstypefaces.com](https://www.swisstypefaces.com)
+
+**Fatype**
+[https://fatype.com/](https://fatype.com/)
+
+**Dinamo Typefaces**    
+[http://www.abcdinamo.com/](http://www.abcdinamo.com/)
+
+**ECAL Typefaces**  
+[https://ecal-typefaces.ch/ ](https://ecal-typefaces.ch/ )
+
+**Grilli Type**  
+[https://www.grillitype.com/](https://www.grillitype.com/)
 
