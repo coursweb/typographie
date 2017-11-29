@@ -17,6 +17,8 @@ les fontes du collectif OSP:
 [http://osp.kitchen/foundry/](http://osp.kitchen/foundry/)   
 Limousine, Le Patin Helvète, Crickx...
 
+![Quelques caractères de la Crickx, fonte vernaculaire numérisée par OSP.](/cours-typographie/img/crickx-de_m_a_z-small.jpg)
+
 Google Fonts:   
 [https://fonts.google.com/](https://fonts.google.com)
 
@@ -54,7 +56,7 @@ Deux belles fontes mono-espacées:
 
 ## Fontes commerciales
 
-Quelques fonderies Suisses intéressantes:
+Quelques fonderies Suisses intéressantes, qui commercialisent leurs fontes pour un usage print et webfont:
 
 **Swiss Typefaces**   
 [https://www.swisstypefaces.com](https://www.swisstypefaces.com)
@@ -71,3 +73,15 @@ Quelques fonderies Suisses intéressantes:
 **Grilli Type**  
 [https://www.grillitype.com/](https://www.grillitype.com/)
 
+## Services de distribution
+
+Depuis 2010, plusieurs services de vente de fonte, par formule d'abonnement (Typekit) ou par achat unique (Fontspring) sont apparus sur le web.
+
+Ces services ont l'avantage de proposer un grand choix de fontes, provenant de fonderies avec lesquelles ces plateformes collaborent. Voici quelques services:
+
+* Typekit
+* Fontspring
+* Fontdeck
+* Webtype
+
+![Site de Typekit, en 2016.](/cours-typographie/img/adobe-typekit.jpg)

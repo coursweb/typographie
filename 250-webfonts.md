@@ -62,6 +62,8 @@ Le support des navigateurs pour les formats woff et woff2 ayant fait des progrè
 
 Depuis 2010, Google Fonts est un service d'hébergement gratuit de fontes pour le Web. Ces polices sont sous licences libres. Ceci nous permet d'inclure très rapidement une police dans le code. De plus, les fontes sont rangées par classifications. Elles sont affichées avec un lien de téléchargement, ce qui permet de les obtenir dans plusieurs formats tels que TrueType ou OpenType.
 
+![Goodgle Fonts, une sélection de fontes Google par Frank Adebiaye.](/cours-typographie/img/goodgle-fonts.png)
+
 Inclure une fonte Google dans son code:
 
-Le fonctionnement est simple. Il suffit de choisir une police parmi la liste. Ensuite, en cliquant sur Use this font, on nous demande de suivre les instructions plus bas dans le menu. Ceci générera un lien à copier-coller dans le head de notre HTML et d'utiliser le nom de la typographie dans le CSS.
+Le fonctionnement est simple. Il suffit de choisir une police parmi la liste. Ensuite, en cliquant sur *Use this font*, on nous demande de suivre les instructions plus bas dans le menu. Ceci générera un lien à copier-coller dans le head de notre HTML et d'utiliser le nom de la typographie dans le CSS.
