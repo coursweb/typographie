@@ -58,6 +58,12 @@ Le support des navigateurs pour les formats woff et woff2 ayant fait des progrè
 }
 ```
 
+### Kerning, ligatures, etc
+
+Voir l'excellent guide de Grilli Type:
+
+[https://github.com/grillitype/web-fonts-guide](https://github.com/grillitype/web-fonts-guide)
+
 ### Google Fonts
 
 Depuis 2010, Google Fonts est un service d'hébergement gratuit de fontes pour le Web. Ces polices sont sous licences libres. Ceci nous permet d'inclure très rapidement une police dans le code. De plus, les fontes sont rangées par classifications. Elles sont affichées avec un lien de téléchargement, ce qui permet de les obtenir dans plusieurs formats tels que TrueType ou OpenType.
