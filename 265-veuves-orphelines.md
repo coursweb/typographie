@@ -19,7 +19,7 @@ Ces propriétés CSS permettent d'éviter des lignes isolées (avant ou après u
 
 Ces règles peuvent aussi être utilisées pour les sauts des pages, dans les styles destinés à l'impression.
 
-Actuellement (janvier 2017), ces propriétés ne sont pas prises en compte dans Firefox: [http://caniuse.com/#feat=css-widows-orphans](http://caniuse.com/#feat=css-widows-orphans)
+Actuellement (janvier 2017), ces propriétés ne sont pas prises en compte dans Firefox: [http://caniuse.com/#feat=css-widows-orphans](http://caniuse.com/#feat=css-widows-orphans) - voir le [ticket de bug](https://bugzilla.mozilla.org/show_bug.cgi?id=137367) ouvert en 2002.
 
 ### Veuves & orphelines à l'échelle d'un mot
 

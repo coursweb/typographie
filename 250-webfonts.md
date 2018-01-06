@@ -58,7 +58,7 @@ Le support des navigateurs pour les formats woff et woff2 ayant fait des progrè
 }
 ```
 
-### Kerning, ligatures, etc
+### Kerning, ligatures, etc
 
 Voir l'excellent guide de Grilli Type:
 
@@ -70,6 +70,14 @@ Depuis 2010, Google Fonts est un service d'hébergement gratuit de fontes pour l
 
 ![Goodgle Fonts, une sélection de fontes Google par Frank Adebiaye.](/cours-typographie/img/goodgle-fonts.png)
 
-Inclure une fonte Google dans son code:
+#### Inclure une fonte Google dans son code:
 
 Le fonctionnement est simple. Il suffit de choisir une police parmi la liste. Ensuite, en cliquant sur *Use this font*, on nous demande de suivre les instructions plus bas dans le menu. Ceci générera un lien à copier-coller dans le head de notre HTML et d'utiliser le nom de la typographie dans le CSS.
+
+#### Combiner des fontes
+
+Il peut être intéressant de combiner deux fontes pour un effet de contraste, entre la fonte choisie pour le corps de texte, et celle des titres.
+
+Voici quelques ressources:
+
+* [Google Fonts Combinations](https://www.typewolf.com/blog/google-fonts-combinations), Par Jeremiah Shoaf
