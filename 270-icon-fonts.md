@@ -21,7 +21,7 @@ Vous souhaitez utiliser vos propres icônes pour en faire une fonte?
 
 Il existe pour cela un excellent utilitaire en ligne: Icomoon.
 
-### Création de fonte avec Icomoon
+### Création de fonte avec Icomoon
 
 Options d'application de l'icône.
 
@@ -34,7 +34,7 @@ Un avantage de la méthode ligature est que, en cas de non-chargement de la font
 
 #### Créer la fonte dans Icomoon
 
-![](/cours-css/img/icomoon/interface-icomoon.png)
+![](/cours-typographie/img/icomoon/interface-icomoon.png)
 
 Le processus pour créer votre fonte est le suivant:
 
@@ -53,20 +53,20 @@ Selon la manière dont vous avez créé vos fichiers SVG, il est possible que vo
 
 Pour être transformé en gylphe, votre fichier SVG doit être composé de surfaces remplies (outlines), et non de chemins (strokes). Si votre image contient des strokes, vous verrez cet avertissement:
 
-![](/cours-css/img/icomoon/icomoon-strokes-warning.png)
+![](/cours-typographie/img/icomoon/icomoon-strokes-warning.png)
 
 Pour faire cela, voici l'opération à faire dans Adobe Illustrator:
 
 * Sélectionner le chemin.
 * Choisissez *Objet > Décomposer* (ou *Object > Expand*).
 
-![Conversion de strokes en outlines dans AI](/cours-css/img/icomoon/ia-decomposer.png)
+![Conversion de strokes en outlines dans AI](/cours-typographie/img/icomoon/ia-decomposer.png)
 
 ##### Glyphes multicouleurs 
 
 Si vous avez utilisé différentes couleurs dans votre fichier SVG, Icomoon vous en informe: "Multicolor glyphs take more than one character code...". Cela va empêcher d'utiliser ce glyphe pour une ligature.
 
-![](/cours-css/img/icomoon/icomoon-multicolor-glyphs-warning.png)
+![](/cours-typographie/img/icomoon/icomoon-multicolor-glyphs-warning.png)
 
 Veillez à ce que la couleur de fond de votre symbole soit du noir 100% (#000000 dans le code source du SVG). Sinon, Icomoon considère que vous souhaitez créer un glyphe "multi-color", qui ne fonctionne pas comme ligature.
 
@@ -74,11 +74,11 @@ Veillez à ce que la couleur de fond de votre symbole soit du noir 100% (#000000
 
 Si votre image comporte des formes superposées, votre fonte pourra présenter des problèmes, comme ici:
 
-![](/cours-css/img/icomoon/bug-fonte-icone.png)
+![](/cours-typographie/img/icomoon/bug-fonte-icone.png)
 
 Pour éviter cela, fusionnez les formes qui se superposent. Dans Illustrator, vous pourrez utiliser l'outil *Pathfinder*, avec l'opération "Fusion"
 
-![Fusion avec Pathfinder](/cours-css/img/icomoon/icone-fusionner-formes.png)
+![Fusion avec Pathfinder](/cours-typographie/img/icomoon/icone-fusionner-formes.png)
 
 #### Appliquer la fonte sur votre site
 
