@@ -23,16 +23,7 @@ Il existe pour cela un excellent utilitaire en ligne: Icomoon.
 
 ### Création de fonte avec Icomoon
 
-Options d'application de l'icône.
-
-Lors de la création de la fonte, Icomoon vous propose deux méthodes pour appliquer l'icône:
-
-* **Méthode Unicode** (U+) : vous définissez un champ Unicode correspondant à ce glyphe. Cela peut être une lettre de l'alphabet, l'un des milliers de champs unicode disponible, voire un champ "emoji".
-* **Méthode Ligature** : vous tirez parti des ligatures, et définissez une suite de caractères qui correspondra, dans cette fonte, à une ligature. Par exemple, la suite de caractères "menu" peut être remplacée par le glyphe représentant le menu, la suite "twitter" peut être remplacée par l'icône du petit oiseau, etc.
-
-Un avantage de la méthode ligature est que, en cas de non-chargement de la fonte, le texte s'affiche. Ainsi, l'utilisation de l'interface ne sera pas entravée.
-
-#### Créer la fonte dans Icomoon
+#### Importer la fonte dans Icomoon
 
 ![](/cours-typographie/img/icomoon/interface-icomoon.png)
 
@@ -41,8 +32,18 @@ Le processus pour créer votre fonte est le suivant:
 - Créez vos icônes dans un logiciel comme Inkscape, Sketch ou Illustrator, et sauvez-les en format SVG.
 - Veillez à ce qu'elles aient les mêmes dimensions.
 - Dans Icomoon, allez dans IcomoonApp.
-- Cliquez 
+- Cliquez Importer, sélectionnez vos SVG.
 
+####  Options de la fonte
+
+Un fois les icônes sélectionnées, cliquez "Générate Font".
+
+Lors de la création de la fonte, Icomoon vous propose deux méthodes pour appliquer les icônes:
+
+* **Méthode Unicode** (U+) : vous définissez un champ Unicode correspondant à ce glyphe. Cela peut être une lettre de l'alphabet, l'un des milliers de champs unicode disponible, voire un champ "emoji".
+* **Méthode Ligature** : vous tirez parti des ligatures, et définissez une suite de caractères qui correspondra, dans cette fonte, à une ligature. Par exemple, la suite de caractères "menu" peut être remplacée par le glyphe représentant le menu, le mot "twitter" peut être remplacée par l'icône du petit oiseau, etc.
+
+Un avantage de la méthode ligature est que, en cas de non-chargement de la fonte, le texte s'affiche. Ainsi, l'utilisation de l'interface ne sera pas entravée.
 
 
 #### Problèmes possibles
