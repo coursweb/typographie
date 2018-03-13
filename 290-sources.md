@@ -33,11 +33,17 @@ les fontes d'Alfredo Marco Pradil (certaines sous licence libre):
 les "Hot 30", une sélection de 30 fontes libres, projet de Stefan Endress et Alastair O’Shea:  
 [http://www.open-foundry.com/hot30](http://www.open-foundry.com/hot30)
 
+Cinq belles combinaisons de fontes, par Great Simple Studio:  
+[http://fonts.greatsimple.io/](http://fonts.greatsimple.io/)
+
 Use & Modify, sélection de fontes maintenue par Raphaël Bastide:  
 [http://usemodify.com/](http://usemodify.com/)
 
 Gidole, open-source modern DIN:  
 [https://github.com/larsenwork/Gidole](https://github.com/larsenwork/Gidole)
+
+Infini, une fonte de Sandrine Nugue:  
+[http://cnap.graphismeenfrance.fr/infini/](http://cnap.graphismeenfrance.fr/infini/)
 
 Work Sans:  
 [https://github.com/weiweihuanghuang/Work-Sans](https://github.com/weiweihuanghuang/Work-Sans)
@@ -75,13 +81,12 @@ Quelques fonderies Suisses intéressantes, qui commercialisent leurs fontes pour
 
 ## Services de distribution
 
-Depuis 2010, plusieurs services de vente de fonte, par formule d'abonnement (Typekit) ou par achat unique (Fontspring) sont apparus sur le web.
+Depuis 2009, plusieurs services de vente de fontes, par formule d'abonnement (Typekit) ou par achat unique (Fontspring) sont apparus sur le web.
 
 Ces services ont l'avantage de proposer un grand choix de fontes, provenant de fonderies avec lesquelles ces plateformes collaborent. Voici quelques services:
 
-* Typekit
-* Fontspring
-* Fontdeck
-* Webtype
+* [Typekit](https://typekit.com/) - a rejoint par Adobe en 2011.
+* [Fontspring](https://www.fontspring.com/) - plateforme lancée par Ethan Dunham, créateur de [Fontsquirrel](https://www.fontsquirrel.com/).
+* [Webtype](https://www.webtype.com/) - propose un cataloge d'environ 120 fontes, notamment celles de Font Bureau.
 
 ![Site de Typekit, en 2016.](/cours-typographie/img/adobe-typekit.jpg)
