@@ -4,9 +4,9 @@ title: Césure
 permalink: /typo/cesure/
 ---
 
-### Hyphenation, césure
+## Hyphenation, césure
 
-#### La propriété "hyphens"
+### La propriété "hyphens"
 
 Les navigateurs Firefox, Safari et IE10 supportent la césure (en anglais, *hyphenation*) depuis 2012. Actuellement (fin 2016) Chrome est en voie de l'implémenter.
 
