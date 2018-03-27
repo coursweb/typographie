@@ -4,7 +4,7 @@ title: Typographie
 permalink: /typo/
 ---
 
-![Emil Ruder: Typographie (1967)](/cours-css/img/emil-ruder-typographie-800px.jpg)
+![Emil Ruder: Typographie (1967)](/cours-typographie/img/emil-ruder-typographie-800px.jpg)
 
 Depuis les débuts du web, la typographie a été l'un des aspects les plus importants – le web étant constitué à ses débuts uniquement de texte.
 
