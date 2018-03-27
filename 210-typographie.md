@@ -4,7 +4,13 @@ title: Typographie
 permalink: /typo/
 ---
 
-Propriétés CSS spécifiques à la typographie:
+![Emil Ruder: Typographie (1967)](/cours-css/img/emil-ruder-typographie-800px.jpg)
+
+Depuis les débuts du web, la typographie a été l'un des aspects les plus importants – le web étant constitué à ses débuts uniquement de texte.
+
+Des les premières versions du CSS, des propriétés sont introduites afin de pouvoir exercer un contrôle sur la typographie.
+
+Voici les principales propriétés CSS spécifiques à la typographie:
 
 * **font-family** : Permet de spécifier la police.
 * **font-size** : Permet de spécifier la taille de la police. On peut utiliser des unités absolues ou relatives.
