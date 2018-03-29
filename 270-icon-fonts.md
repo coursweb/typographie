@@ -4,14 +4,12 @@ title: Fontes d'icônes
 permalink: /typo/icon-fonts/
 ---
 
-## Fontes d'icônes
+Avec l'arrivée des webfonts dans les navigateurs, une nouvelle possibilité s'est offerte pour afficher des graphiques vectoriels : **les fontes d'icônes**.
 
-Avec l'arrivée des webfonts dans les navigateurs, une nouvelle possibilité s'est offerte pour afficher des graphiques vectoriels : les fontes d'icônes.
-
-En effet, une image vectorielle peut être enregistrée sous forme de glyphe dans une fonte. Au lieu de charger les images vectorielles au format SVG (ou transformées en images bitmap PNG), la fonte présente plusieurs avantages:
+En effet, une image vectorielle peut être enregistrée sous forme de **glyphe** dans une fonte. Au lieu de charger les images vectorielles au format SVG (ou transformées en images bitmap PNG), la fonte présente plusieurs avantages:
 
 - Une fonte peut contenir une grande quantité d'images différentes (chaque image étant un caractère), qui seront chargées en une seule fois.
-- Une fonte bénéficie de tous les effets visuels du CSS, comme "color" ou "text-shadow" (ces effets ne sont pas aussi facilement appliquables pour des fichiers SVG).
+- Une fonte bénéficie de tous les **effets visuels du CSS**, comme "<span style='color:tomato;'>color</span>" ou "<span style='text-shadow:1px 1px 5px cyan;'>text-shadow</span>" (ces effets ne sont pas aussi facilement appliquables pour des fichiers SVG).
 
 Pour cette raison, une grande quantité de fontes d'icônes "génériques" ont fait leur apparition, offrant des librairies d'icônes prêtes à l'emploi.
 
@@ -52,7 +50,7 @@ Selon la manière dont vous avez créé vos fichiers SVG, il est possible que vo
 
 ##### Strokes and outlines
 
-Pour être transformé en gylphe, votre fichier SVG doit être composé de surfaces remplies (outlines), et non de chemins (strokes). Si votre image contient des strokes, vous verrez cet avertissement:
+Pour être transformé en gylphe, votre fichier SVG doit être composé de **surfaces remplies** (*outlines* ou *fills*), et non de **chemins** (*strokes*). Si votre image contient des *strokes*, vous verrez cet avertissement:
 
 ![](/cours-typographie/img/icomoon/icomoon-strokes-warning.png)
 
@@ -69,7 +67,7 @@ Si vous avez utilisé différentes couleurs dans votre fichier SVG, Icomoon vous
 
 ![](/cours-typographie/img/icomoon/icomoon-multicolor-glyphs-warning.png)
 
-Veillez à ce que la couleur de fond de votre symbole soit du noir 100% (#000000 dans le code source du SVG). Sinon, Icomoon considère que vous souhaitez créer un glyphe "multi-color", qui ne fonctionne pas comme ligature.
+Pour résoudre ce problème, veillez à ce que la couleur de fond de votre symbole soit du noir à 100% (#000000 dans le code source du SVG). Sinon, Icomoon considère que vous souhaitez créer un glyphe "multi-color", qui ne fonctionne pas comme ligature.
 
 ##### Formes qui se superposent
 
@@ -77,13 +75,13 @@ Si votre image comporte des formes superposées, votre fonte pourra présenter d
 
 ![](/cours-typographie/img/icomoon/bug-fonte-icone.png)
 
-Pour éviter cela, fusionnez les formes qui se superposent. Dans Illustrator, vous pourrez utiliser l'outil *Pathfinder*, avec l'opération "Fusion"
+Pour éviter cela, **fusionnez** les formes qui se superposent. Dans Illustrator, vous pourrez utiliser l'outil *Pathfinder*, avec l'opération "Fusion"
 
 ![Fusion avec Pathfinder](/cours-typographie/img/icomoon/icone-fusionner-formes.png)
 
 #### Appliquer la fonte sur votre site
 
-Une fois que vous avez généré la fonte, vous aurez téléchargé un ZIP contenant toute sorte de fichiers:
+Une fois que vous avez généré la fonte, Icomoon produit un ZIP contenant plusieurs fichiers:
 
 * Un dossier "fonts" comprenant vos fontes, en version WOFF, EOT, SVG, et TTF.
 * Un fichier demo.html qui vous présente les glyphes de votre fonte.
@@ -95,7 +93,7 @@ Pour utiliser la fonte dans votre projet, voici les étapes à suivre
 2. Charger la fonte dans votre CSS.
 3. Appliquer la fonte dans votre CSS.
 
-Pour **placer les fichiers au bon endroit**, copiez les fichiers webfont (woff, svg, ttf etc) dans la structure de dossiers de votre site. Vous aurez peut-être un dossier nommé "fonts", dans lequel vous pourrez les glisser.
+Pour **placer les fichiers au bon endroit**, copiez les fichiers webfont (woff, svg, ttf etc) dans la structure de dossiers de votre site. Vous aurez peut-être un dossier nommé `fonts`, dans lequel vous pourrez les glisser.
 
 Pour **charger la fonte** dans votre CSS, vous pourrez récuper la partie `@font-face` du style.css fourni par Icomoon. Vous devrez peut-être adapter le chemin des fontes, en fonction de la structure des dossiers de votre site.
 

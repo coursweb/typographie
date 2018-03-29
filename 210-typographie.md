@@ -10,6 +10,8 @@ Depuis les débuts du web, la typographie a été l'un des aspects les plus impo
 
 Des les premières versions du CSS, des propriétés sont introduites afin de pouvoir exercer un contrôle sur la typographie.
 
+## Propriétés typographiques du CSS
+
 Voici les principales propriétés CSS spécifiques à la typographie:
 
 * **font-family** : Permet de spécifier la police.
@@ -18,7 +20,27 @@ Voici les principales propriétés CSS spécifiques à la typographie:
 * **font-weight** : Permet de spécifier la graisse, avec un mot-clé (*normal*, *bold*) ou avec une valeur numérique allant de 100 à 900 (voir ci-dessous).
 * **font-variant** : Permet de spécifier des petites majuscules, avec la valeur "small-caps".
 
-Liste des équivalences des valeurs numériques du `font-weight`:
+### Déclarer la fonte
+
+La propriété font-family permet de déclarer le nom de la fonte à utiliser.
+
+```
+body {
+   font-family: Helvetica, Arial, sans-serif; 
+}
+```
+
+### Epaisseur de la fonte
+
+L'épaisseur (graisse) est définie par la propriété `font-weight`. Cette propriété peut prendre un mot-clé: `normal` ou `bold` (gras). 
+
+```
+.title {
+   font-weight: bold; 
+}
+```
+
+Pour plus de précision, on peut indiquer une valeur numérique, allant de 100 à 900. Voici une liste des équivalences de ces valeurs numériques:
 
 * 100 - équivalent à *Ultra-light* ou *Thin*
 * 200 - équivalent à *Light* ou *Extra-Light*
@@ -30,7 +52,9 @@ Liste des équivalences des valeurs numériques du `font-weight`:
 * 800 - équivalent à *Extra-Bold* ou *Black*
 * 900 - équivalent à *Ultra-Bold* ou *Extra-Black*
 
-Pour que ces variantes soient visibles, il faut que la fonte les supporte. De nombreuses fontes ne proposent que les versions *normal* et *bold*. D'autres offrent plus d'options: *Univers* propose 5 versions (*45 Light, 55 Roman, 65 Bold, 75 Black, 85 Extra Black*), *Helvetica Neue* en comporte 8 (*Ultra-Light, Thin, Light, Normal, Medium, Bold, Heavy, Black*). 
+Pour que ces variantes soient visibles, il faut que la fonte les supporte! De nombreuses fontes ne proposent que les versions *normal* et *bold*. 
+
+Certaines fontes offrent plus d'options: *Univers* propose 5 niveaux d'épaisseur (*45 Light, 55 Roman, 65 Bold, 75 Black, 85 Extra Black*), *Helvetica Neue* en comporte 8 (*Ultra-Light, Thin, Light, Normal, Medium, Bold, Heavy, Black*). 
 
 Voici quelques fontes qui proposent toutes les 9 variantes supportées par le CSS: [Exo](https://fonts.google.com/specimen/Exo), [Libre Franklin](https://github.com/impallari/Libre-Franklin), ou [Raleway](https://github.com/impallari/Raleway).
 

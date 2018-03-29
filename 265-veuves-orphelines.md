@@ -4,8 +4,6 @@ title: Veuves & orphelines
 permalink: /typo/veuves-orphelines/
 ---
 
-## Veuves & orphelines
-
 Le CSS propose des réglages typographiques concernant les lignes [veuves et orphelines](https://fr.wikipedia.org/wiki/Veuves_et_orphelines).
 
 Ces propriétés CSS permettent d'éviter des lignes isolées (avant ou après un saut de colonne) en indiquant un nombre de lignes consécutives minimum:
