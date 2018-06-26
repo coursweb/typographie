@@ -24,6 +24,10 @@ Les "Hot 30", une sélection de 30 fontes libres, projet de Stefan Endress et Al
 Use & Modify, sélection de fontes maintenue par Raphaël Bastide:  
 [http://usemodify.com/](http://usemodify.com/)
 
+#### Sélections de webfonts commerciales
+
+- [Article de Jeremiah Shoaf](http://alistapart.com/article/the-rich-typefaces-get-richer), sur la popularité des fontes.
+- [Une sélection](http://kupferschrift.de/cms/2016/05/so-many-good-webfonts/) de belles fontes trop rarement utilisées, par Indra Kupferschmid.
 
 ### Fonderies typographiques
 
@@ -91,6 +95,9 @@ Ces services ont l'avantage de proposer un grand choix de fontes, provenant de f
 * [Typekit](https://typekit.com/) - a rejoint par Adobe en 2011.
 * [Fontspring](https://www.fontspring.com/) - plateforme lancée par Ethan Dunham, créateur de [Fontsquirrel](https://www.fontsquirrel.com/).
 * [Webtype](https://www.webtype.com/) - propose un cataloge d'environ 120 fontes, notamment celles de Font Bureau.
+* [Fonts.com](https://www.fonts.com/), un service appartenant à Monotype (compagnie fondée en 1887). Propose un catalogue de 20'000 fontes.
+* [MyFonts](https://www.myfonts.com/), un service appartenant aussi à Monotype, proposant plus de 130'000 fontes.
+* [Hoefler&Co](https://www.typography.com/), service exclusif pour utiliser les fontes de Hoefler&Co.
 
 ![Site de Typekit, en 2016.](/cours-typographie/img/adobe-typekit.jpg)
 

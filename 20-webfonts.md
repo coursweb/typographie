@@ -30,27 +30,50 @@ Entre 2008 et 2010, tous les navigateurs ont implémenté le **CSS3 Fonts Module
 
 ### @Fontface
 
-La syntaxe @font-face, optimisée (c'est la version proposée par FontSquirrel):
+La syntaxe @font-face fonctionne de la manière suivante:
 
 ```css
 @font-face {
-    font-family: 'univers';
-    src: url('univers.eot');
-    src: url('univers.eot?#iefix') format('embedded-opentype'),
-         url('univers.woff2') format('woff2'),
-         url('univers.woff') format('woff'),
-         url('univers.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Univers';
+  src: url(univers-regular.woff);
 }
 ```
 
-On notera que dans ce code, les fontes sont proposées dans quatre différents formats: eot, woff2, woff, ttf.
+Cette déclaration permet de charger la fonte, il faut ensuite l'appliquer. Par exemple comme ceci:
 
-- **eot** : format utilisé par Microsoft (Internet Explorer)
+body {
+  font-family: 'Univers', sans-serif;
+}
+
+#### Familles de fontes
+
+Quand on souhaite utiliser plusieurs variantes – par exemple Univers en *55 Roman* et *65 Bold* – on peut les déclarer comme une même famille:
+
+@font-face {
+    font-family: 'Univers';
+    src: url(univers-55-roman.woff);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Univers';
+    src: url(univers-65-bold.woff);
+    font-weight: bold;
+}
+
+#### Charger plusieurs formats
+
+Un problème rencontré lors de l'utilisation de webfonts est que les divers navigateurs utilisent des formats de fontes différents.
+
+Voici une liste de formats possibles:
+
 - **ttf** : True Type Font, format aussi utilisé pour l'impression
+- **otf** : Open Type Font, format aussi utilisé pour l'impression
+- **eot** : format compressé utilisé par Microsoft (Internet Explorer)
 - **woff** : format compressé, conçu pour le web
 - **woff2** : format compressé, amélioration du format woff2
+
+Le format WOFF est un nouveau format développé pour le web. Il s'agit de fichiers OTF compressés afin de charger plus rapidement.
 
 Le support des navigateurs pour les formats woff et woff2 ayant fait des progrès, [le site css-tricks](https://css-tricks.com/snippets/css/using-font-face/) propose en 2016 d'utiliser la syntaxe suivante:
 
@@ -62,6 +85,10 @@ Le support des navigateurs pour les formats woff et woff2 ayant fait des progrè
        url('myfont.ttf') format('truetype');
 }
 ```
+
+La même syntaxe [est préconisée par Bram Stein](http://alistapart.com/article/using-webfonts) sur A List Apart en 2017.
+
+Dans la période intiale des webfonts, entre 2011 - 2016, des syntaxes plus compliquées étaient utilisées, ajoutant d'autres formats comme SVG (pour appareils iOS) et EOT (pour Internet Explorer). Ces formats ne sont désormais plus nécessaires.
 
 ### Kerning, ligatures, etc
 
