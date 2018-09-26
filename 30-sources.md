@@ -74,7 +74,7 @@ Quelques fonderies Suisses intéressantes, qui commercialisent leurs fontes pour
 **Swiss Typefaces**   
 [https://www.swisstypefaces.com](https://www.swisstypefaces.com)
 
-**Fatype**
+**Fatype**   
 [https://fatype.com/](https://fatype.com/)
 
 **Dinamo Typefaces**    
