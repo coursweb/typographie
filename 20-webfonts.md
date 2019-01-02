@@ -41,25 +41,29 @@ La syntaxe @font-face fonctionne de la manière suivante:
 
 Cette déclaration permet de charger la fonte, il faut ensuite l'appliquer. Par exemple comme ceci:
 
+```css
 body {
   font-family: 'Univers', sans-serif;
 }
+```
 
 #### Familles de fontes
 
 Quand on souhaite utiliser plusieurs variantes – par exemple Univers en *55 Roman* et *65 Bold* – on peut les déclarer comme une même famille:
 
+```css
 @font-face {
-    font-family: 'Univers';
-    src: url(univers-55-roman.woff);
-    font-weight: normal;
+  font-family: 'Univers';
+  src: url(univers-55-roman.woff);
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: 'Univers';
-    src: url(univers-65-bold.woff);
-    font-weight: bold;
+  font-family: 'Univers';
+  src: url(univers-65-bold.woff);
+  font-weight: bold;
 }
+```
 
 #### Charger plusieurs formats
 
@@ -67,11 +71,11 @@ Un problème rencontré lors de l'utilisation de webfonts est que les divers nav
 
 Voici une liste de formats possibles:
 
+- **woff** : format compressé, conçu pour le web
+- **woff2** : format compressé, amélioration du format woff2
 - **ttf** : True Type Font, format aussi utilisé pour l'impression
 - **otf** : Open Type Font, format aussi utilisé pour l'impression
 - **eot** : format compressé utilisé par Microsoft (Internet Explorer)
-- **woff** : format compressé, conçu pour le web
-- **woff2** : format compressé, amélioration du format woff2
 
 Le format WOFF est un nouveau format développé pour le web. Il s'agit de fichiers OTF compressés afin de charger plus rapidement.
 
@@ -89,6 +93,19 @@ Le support des navigateurs pour les formats woff et woff2 ayant fait des progrè
 La même syntaxe [est préconisée par Bram Stein](http://alistapart.com/article/using-webfonts) sur A List Apart en 2017.
 
 Dans la période intiale des webfonts, entre 2011 - 2016, des syntaxes plus compliquées étaient utilisées, ajoutant d'autres formats comme SVG (pour appareils iOS) et EOT (pour Internet Explorer). Ces formats ne sont désormais plus nécessaires.
+
+### Retour à un Font-Stack minimal
+
+WP 4.6 font-stack (Native Fonts in 4.6) (2016)
+
+Article: [Native Fonts in 4.6](https://make.wordpress.org/core/2016/07/07/native-fonts-in-4-6/)
+
+Le code: 
+
+```css
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+```
+
 
 ### Kerning, ligatures, etc
 
