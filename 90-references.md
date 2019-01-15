@@ -4,6 +4,10 @@ title: Références
 permalink: /typo/references/
 ---
 
+## Slides
+
+Slides: [présentation effectuée en 2018 à la HE-Arc, Neuchâtel](https://www.slideshare.net/xsetpointer/typographie-notions-de-design-graphique-hearc-2018).
+
 ## Références majeures sur la typographie web
 
 <div class="cards"></div>

@@ -94,22 +94,25 @@ La même syntaxe [est préconisée par Bram Stein](http://alistapart.com/article
 
 Dans la période intiale des webfonts, entre 2011 - 2016, des syntaxes plus compliquées étaient utilisées, ajoutant d'autres formats comme SVG (pour appareils iOS) et EOT (pour Internet Explorer). Ces formats ne sont désormais plus nécessaires.
 
-### Retour à un Font-Stack minimal
+### Retour à un Font-Stack minimal
 
-WP 4.6 font-stack (Native Fonts in 4.6) (2016)
+En 2016, les développeurs de WordPress décident de retourner à un "font-stack" minimal, faisant appel aux fontes système (plutôt que de charger Open Sans via Google Fonts). 
 
-Article: [Native Fonts in 4.6](https://make.wordpress.org/core/2016/07/07/native-fonts-in-4-6/)
-
-Le code: 
+Le code du font stack: 
 
 ```css
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, 
+"Segoe UI", Roboto, Oxygen-Sans, Ubuntu, 
+Cantarell, "Helvetica Neue", sans-serif;
 ```
 
+Ce font stack vise à utiliser les fontes d'interface natives des différents systèmes (Android, iOS, Windows, macOS, Linux).
+
+Lire cet article pour plus de détails: [Native Fonts in 4.6](https://make.wordpress.org/core/2016/07/07/native-fonts-in-4-6/)
 
 ### Kerning, ligatures, etc
 
-Voir l'excellent guide de Grilli Type:
+Pour savoir comment utiliser les propriétés typographiques avancées sur le web, voir cet excellent guide de Grilli Type:
 
 [https://github.com/grillitype/web-fonts-guide](https://github.com/grillitype/web-fonts-guide)
 
