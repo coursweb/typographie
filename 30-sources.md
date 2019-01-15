@@ -24,6 +24,10 @@ Les "Hot 30", une sélection de 30 fontes libres, projet de Stefan Endress et Al
 Use & Modify, sélection de fontes maintenue par Raphaël Bastide:  
 [http://usemodify.com/](http://usemodify.com/)
 
+[fonts.greatsimple.io](http://fonts.greatsimple.io/), cinq belles combinaisons de fontes, par Great Simple Studio.
+
+![Combinaisons proposées par Great Simple Studio](/cours-typographie/img/greatsimple-combinations.png)
+
 #### Sélections de webfonts commerciales
 
 - [Article de Jeremiah Shoaf](http://alistapart.com/article/the-rich-typefaces-get-richer), sur la popularité des fontes.
@@ -31,33 +35,34 @@ Use & Modify, sélection de fontes maintenue par Raphaël Bastide:
 
 ### Fonderies typographiques
 
-les fontes du collectif OSP:   
+Les fontes du collectif OSP:   
 [http://osp.kitchen/foundry/](http://osp.kitchen/foundry/)   
 Limousine, Le Patin Helvète, Crickx...
 
-![Quelques caractères de la Crickx, fonte vernaculaire bruxelloise, numérisée par OSP.](/cours-typographie/img/crickx-de_m_a_z-small.jpg)
+![Quelques caractères de la Crickx, fonte vernaculaire bruxelloise, numérisée par OSP.](/cours-typographie/img/crickx-web.jpg)
 
-les fontes du studio Uplaod:  
+Les fontes du studio Uplaod:  
 [http://uplaod.fr/allfonts](http://uplaod.fr/allfonts)  
 [https://github.com/uplaod](https://github.com/uplaod)
 
-les fontes d'Alfredo Marco Pradil (certaines sous licence libre):  
+Les fontes d'Alfredo Marco Pradil (certaines sous licence libre):  
 [https://fontlibrary.org/en/member/hanken](https://fontlibrary.org/en/member/hanken)  
 [https://sellfy.com/hankendesignco](https://sellfy.com/hankendesignco)
 
 ### Quelques coups de cœur
 
-Bagnard, et Bagnard Sans:     
+**Bagnard**, et **Bagnard Sans**:     
 [http://www.love-letters.be/](http://www.love-letters.be/ )  
 [https://github.com/sebsan/Bagnard-Sans](https://github.com/sebsan/Bagnard-Sans) 
 
-Gidole, open-source modern DIN:  
+**Gidole**, open-source modern DIN:  
 [https://github.com/larsenwork/Gidole](https://github.com/larsenwork/Gidole)
 
-Infini, une fonte de Sandrine Nugue:  
-[http://cnap.graphismeenfrance.fr/infini/](http://cnap.graphismeenfrance.fr/infini/)
+**Infini**, une fonte de Sandrine Nugue:  
+[http://cnap.graphismeenfrance.fr/infini/](http://cnap.graphismeenfrance.fr/infini/)  
+[Une extension WordPress](https://github.com/eracom/infini-pour-deppo) pour charger la fonte.
 
-Work Sans:  
+**Work Sans**  
 [https://github.com/weiweihuanghuang/Work-Sans](https://github.com/weiweihuanghuang/Work-Sans)
 
 **Fira mono**, par Erik Spiekermann   
@@ -66,6 +71,16 @@ Work Sans:
 **Source code pro**, par Adobe   
 [https://github.com/adobe-fonts/source-code-pro](https://github.com/adobe-fonts/source-code-pro)
 
+**IBM Plex**, par IMB   
+Fonte en trois variantes, Serif, Sans-Serif et Monospaced.   
+[https://www.ibm.com/plex/](https://www.ibm.com/plex/)
+
+![La version Mono de IBM Plex](/cours-typographie/img/ibm-font-mono.jpg)
+
+**Inter UI**, par Rasmus Andersson   
+[https://rsms.me/inter/](https://rsms.me/inter/)
+
+![La fonte Inter UI](/cours-typographie/img/inter-ui-font.jpg)
 
 ## Fontes commerciales helvétiques
 
@@ -92,9 +107,9 @@ Depuis 2009, plusieurs services de vente de fontes, par formule d'abonnement (Ty
 
 Ces services ont l'avantage de proposer un grand choix de fontes, provenant de fonderies avec lesquelles ces plateformes collaborent. Voici quelques services:
 
-* [Typekit](https://typekit.com/) - a rejoint par Adobe en 2011.
+* [Adobe Fonts](https://fonts.adobe.com/) - anciennement Typekit, l'un des premiers services webfont, par abonnement, acquis par Adobe en 2011.
 * [Fontspring](https://www.fontspring.com/) - plateforme lancée par Ethan Dunham, créateur de [Fontsquirrel](https://www.fontsquirrel.com/).
-* [Webtype](https://www.webtype.com/) - propose un cataloge d'environ 120 fontes, notamment celles de Font Bureau.
+* [Webtype](https://www.webtype.com/) - propose un catalogue d'environ 120 fontes, notamment celles de Font Bureau.
 * [Fonts.com](https://www.fonts.com/), un service appartenant à Monotype (compagnie fondée en 1887). Propose un catalogue de 20'000 fontes.
 * [MyFonts](https://www.myfonts.com/), un service appartenant aussi à Monotype, proposant plus de 130'000 fontes.
 * [Hoefler&Co](https://www.typography.com/), service exclusif pour utiliser les fontes de Hoefler&Co.
