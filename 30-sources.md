@@ -35,7 +35,11 @@ Use & Modify, sélection de fontes maintenue par Raphaël Bastide:
 
 ### Fonderies typographiques
 
-Les fontes du collectif OSP:   
+Les fontes du collectif Velvetyne Type Foundry:  
+[https://velvetyne.fr/](https://velvetyne.fr/)  
+Lack, Avara, Sporting Grotesque, Steps Mono...
+
+Les fontes du collectif OSP (Open Source Publishing):   
 [http://osp.kitchen/foundry/](http://osp.kitchen/foundry/)   
 Limousine, Le Patin Helvète, Crickx...
 
@@ -71,7 +75,7 @@ Les fontes d'Alfredo Marco Pradil (certaines sous licence libre):
 **Source code pro**, par Adobe   
 [https://github.com/adobe-fonts/source-code-pro](https://github.com/adobe-fonts/source-code-pro)
 
-**IBM Plex**, par IMB   
+**IBM Plex**, par IBM   
 Fonte en trois variantes, Serif, Sans-Serif et Monospaced.   
 [https://www.ibm.com/plex/](https://www.ibm.com/plex/)
 
@@ -95,11 +99,20 @@ Quelques fonderies Suisses intéressantes, qui commercialisent leurs fontes pour
 **Dinamo Typefaces**    
 [http://www.abcdinamo.com/](http://www.abcdinamo.com/)
 
-**ECAL Typefaces**  
-[https://ecal-typefaces.ch/ ](https://ecal-typefaces.ch/ )
+**Altiplano Typefaces**  
+[https://www.altiplano.xyz/](https://www.altiplano.xyz/)
+
+**Optimo Type Foundry**  
+[https://www.optimo.ch/](https://www.optimo.ch/)
+
+**Lineto**  
+[https://lineto.com/](https://lineto.com/)
 
 **Grilli Type**  
 [https://www.grillitype.com/](https://www.grillitype.com/)
+
+**ECAL Typefaces**  
+[https://ecal-typefaces.ch/ ](https://ecal-typefaces.ch/ )
 
 ## Services de distribution
 
