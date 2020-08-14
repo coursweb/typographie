@@ -149,3 +149,5 @@ Quelques ressources:
 
 * [fonts.greatsimple.io](http://fonts.greatsimple.io/), cinq belles combinaisons de fontes, par Great Simple Studio.
 * [Google Fonts Combinations](https://www.typewolf.com/blog/google-fonts-combinations), par Jeremiah Shoaf.
+* [The Step-by-Step Guide for Pairing Fonts](https://learnui.design/blog/guide-pairing-fonts.html), par Erik D. Kennedy
+

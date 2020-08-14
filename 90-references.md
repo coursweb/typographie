@@ -18,7 +18,7 @@ Slides: [présentation effectuée en 2018 à la HE-Arc, Neuchâtel](https://www.
 
 ## Vidéos
 
-Pour découvrir des caractères classiques: une web-série de 12 épisodes, "[Sacrés caractères!](https://www.franceculture.fr/litterature/sacres-caracteres-une-webserie-de-12-films-courts-sur-des-polices-qui-ont-du-caractere)".
+- Pour découvrir des caractères classiques: une web-série de 12 épisodes, "[Sacrés caractères!](https://www.franceculture.fr/litterature/sacres-caracteres-une-webserie-de-12-films-courts-sur-des-polices-qui-ont-du-caractere)".
 
 - [La macrotypographie de la page Web](https://www.paris-web.fr/2010/conferences/macrotypographie-page-web.php), par Anne-Sophie Fradier, Paris Web 2010.
 - [La typographie comme outil de design](https://www.paris-web.fr/2010/conferences/la-typographie-comme-outil-de-design.php), par David Rault, Paris Web 2010.
