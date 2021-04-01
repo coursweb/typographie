@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Sources de fontes
-permalink: /typo/sources/
 ---
 
 ## Fontes sous licence libre
@@ -26,7 +25,7 @@ Use & Modify, sélection de fontes maintenue par Raphaël Bastide:
 
 [fonts.greatsimple.io](http://fonts.greatsimple.io/), cinq belles combinaisons de fontes, par Great Simple Studio.
 
-![Combinaisons proposées par Great Simple Studio](/cours-typographie/img/greatsimple-combinations.png)
+![Combinaisons proposées par Great Simple Studio](img/greatsimple-combinations.png)
 
 #### Sélections de webfonts commerciales
 
@@ -43,7 +42,7 @@ Les fontes du collectif OSP (Open Source Publishing):
 [http://osp.kitchen/foundry/](http://osp.kitchen/foundry/)   
 Limousine, Le Patin Helvète, Crickx...
 
-![Quelques caractères de la Crickx, fonte vernaculaire bruxelloise, numérisée par OSP.](/cours-typographie/img/crickx-web.jpg)
+![Quelques caractères de la Crickx, fonte vernaculaire bruxelloise, numérisée par OSP.](img/crickx-web.jpg)
 
 Les fontes du studio Uplaod:  
 [http://uplaod.fr/allfonts](http://uplaod.fr/allfonts)  
@@ -79,12 +78,12 @@ Les fontes d'Alfredo Marco Pradil (certaines sous licence libre):
 Fonte en trois variantes, Serif, Sans-Serif et Monospaced.   
 [https://www.ibm.com/plex/](https://www.ibm.com/plex/)
 
-![La version Mono de IBM Plex](/cours-typographie/img/ibm-font-mono.jpg)
+![La version Mono de IBM Plex](img/ibm-font-mono.jpg)
 
 **Inter UI**, par Rasmus Andersson   
 [https://rsms.me/inter/](https://rsms.me/inter/)
 
-![La fonte Inter UI](/cours-typographie/img/inter-ui-font.jpg)
+![La fonte Inter UI](img/inter-ui-font.jpg)
 
 ## Fontes commerciales helvétiques
 
@@ -127,7 +126,7 @@ Ces services ont l'avantage de proposer un grand choix de fontes, provenant de f
 * [MyFonts](https://www.myfonts.com/), un service appartenant aussi à Monotype, proposant plus de 130'000 fontes.
 * [Hoefler&Co](https://www.typography.com/), service exclusif pour utiliser les fontes de Hoefler&Co.
 
-![Site de Typekit, en 2016.](/cours-typographie/img/adobe-typekit.jpg)
+![Site de Typekit, en 2016.](img/adobe-typekit.jpg)
 
 ## Google Fonts
 
@@ -135,7 +134,7 @@ Depuis 2010, Google Fonts est un service d'hébergement gratuit de fontes pour l
 
 Le projet est piloté depuis ses débuts par Dave Crossland, un alumni du master de design typogaphique de l'université de Reading, Angleterre.
 
-![Goodgle Fonts, une sélection de fontes Google par Frank Adebiaye.](/cours-typographie/img/goodgle-fonts.png)
+![Goodgle Fonts, une sélection de fontes Google par Frank Adebiaye.](img/goodgle-fonts.png)
 
 #### Inclure une fonte Google dans son code:
 

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Le futur
-permalink: /typo/futur/
 ---
 
 

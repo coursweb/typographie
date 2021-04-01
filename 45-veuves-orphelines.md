@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Veuves & orphelines
-permalink: /typo/veuves-orphelines/
 ---
 
 Le CSS propose des réglages typographiques concernant les lignes [veuves et orphelines](https://fr.wikipedia.org/wiki/Veuves_et_orphelines).

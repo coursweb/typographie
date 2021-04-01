@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Webfonts
-permalink: /typo/webfonts/
 ---
 
 ## CSS3 et Webfonts
@@ -98,7 +97,7 @@ Dans la période intiale des webfonts, entre 2011 - 2016, des syntaxes plus comp
 
 En 2016, les développeurs de WordPress décident de retourner à un "font-stack" minimal, faisant appel aux fontes système (plutôt que de charger Open Sans via Google Fonts). 
 
-![Le "native font stack" de WordPress 4.6](/cours-typographie/img/wp-native-font-stack.png)
+![Le "native font stack" de WordPress 4.6](img/wp-native-font-stack.png)
 
 Le code du font stack: 
 

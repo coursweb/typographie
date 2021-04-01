@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Typographie
-permalink: /typo/
+permalink: index.html
 ---
 
-![Emil Ruder: Typographie (1967)](/cours-typographie/img/emil-ruder-typographie-800px.jpg)
+![Emil Ruder: Typographie (1967)](img/emil-ruder-typographie-800px.jpg)
 
 Depuis les débuts du web, la typographie a été l'un des aspects les plus importants – le web étant constitué à ses débuts uniquement de texte.
 
