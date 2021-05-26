@@ -146,7 +146,7 @@ Vous pouvez conserver ce code tel quel, mais devrez peut-être changer **le sél
 
 Si votre fonte doit agir sur un menu, voici à quoi votre sélecteur pourrait ressembler:
 
-```
+```css
 .primary .menu-item a {
 /* code icomoon */
 }
