@@ -16,7 +16,7 @@ Pour cette raison, une grande quantité de fontes d'icônes "génériques" ont f
 
 Vous souhaitez utiliser vos propres icônes pour en faire une fonte?
 
-Il existe pour cela un excellent utilitaire en ligne: Icomoon.
+Il existe pour cela un excellent utilitaire en ligne: [Icomoon](https://icomoon.io/).
 
 ### Création de fonte avec Icomoon
 
