@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Césure
-permalink: /typo/cesure/
+permalink: cesure.html
 ---
 
 ## Hyphenation, césure

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Références
-permalink: /typo/references/
+permalink: references.html
 ---
 
 ## Slides
