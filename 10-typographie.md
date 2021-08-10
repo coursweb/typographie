@@ -58,13 +58,13 @@ Certaines fontes offrent plus d'options: *Univers* propose 5 niveaux d'épaisseu
 
 Voici quelques fontes qui proposent toutes les 9 variantes supportées par le CSS: [Exo](https://fonts.google.com/specimen/Exo), [Libre Franklin](https://github.com/impallari/Libre-Franklin), ou [Raleway](https://github.com/impallari/Raleway).
 
-![Tailles CSS dans Exo, Libre Franklin, Raleway](/cours-css/img/CSS-font-weight.png)
+![Tailles CSS dans Exo, Libre Franklin, Raleway](img/CSS-font-weight.png)
 
 Autres propriétés:
 
 * **line-height** : la hauteur de ligne 
 * **text-transform** : permet de forcer les majuscules ou minuscules.
-* **text-decoration** : permet d'appliquer un soulignement.
+* **text-decoration** : permet d'appliquer un <span style="text-decoration:underline">soulignement</span>.
 * **font-stretch** : permet de spécifier l'utilisation d'une fonte *condensed*, *semi-condensed*, *ultra-condensed* etc.
 
 ## Réglages typographiques avancés
