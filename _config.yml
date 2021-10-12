@@ -2,3 +2,19 @@ remote_theme: coursweb/jk-theme
 title: Typographie
 description: Module de cours sur la typographie web.
 lang: fr-FR
+# Chapters : top navigation
+chapters:
+ - title: Cours-web
+   url: https://cours-web.ch/
+ - title: Typographie
+   url: https://cours-web.ch/typographie/
+ - title: HTML
+   url: https://cours-web.ch/html/
+ - title: CSS
+   url: https://cours-web.ch/css/
+# Footer content
+# Content is split in three columns.   
+footer_col_1: <ul class="contact-list">
+  <li>Eracom, Lausanne</li>
+  <li>2017–2021</li></ul>
+footer_col_2: <ul class="social-media-list"><li><a href="https://github.com/coursweb/typographie">Lien Github</a></li></ul>
