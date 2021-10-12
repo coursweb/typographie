@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Webfonts
+permalink: webfonts.html
 ---
 
 ## CSS3 et Webfonts

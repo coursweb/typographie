@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Veuves & orphelines
+permalink: veuves-orphelines.html
 ---
 
 Le CSS propose des réglages typographiques concernant les lignes [veuves et orphelines](https://fr.wikipedia.org/wiki/Veuves_et_orphelines).
@@ -42,6 +43,6 @@ Il existe aussi un plugin WordPress, [Widon't Part Deux](https://wordpress.org/p
 
 ## Macrotypographie du web
 
-![](/cours-css/img/macrotypographie-titres.png)
+![](img/macrotypographie-titres.png)
 
 Exemples de styles appliqués aux titres, tirés de la conférence *[La macrotypographie de la page Web ](http://www.dailymotion.com/video/xfpf08_la-macrotypographie-de-la-page-web-anne-sophie-fradier_tech)*, par Anne-Sophie Fradier (Paris Web, 2010).

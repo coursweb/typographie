@@ -111,7 +111,7 @@ Voici à quoi ressemble le code CSS fourni par Icomoon:
 }
 ```
 
-C'est la syntaxe @font-face classique, pour plus de détails voir le chapitre [Webfonts](/typo/webfonts/).
+C'est la syntaxe @font-face classique, pour plus de détails voir le chapitre [Webfonts](webfonts.html).
 
 Finalement, pour **appliquer la fonte** dans votre CSS, vous pouvez également utiliser le code d'exemple fourni dans style.css. Voici à quoi il ressemblera:
 
