@@ -6,7 +6,7 @@ permalink: open-type.html
 
 Certaines fontes présentent des fonctionnalités OpenType, telles que des ligatures, des nombres tabulaires, des fractions...
 
-Il est possible de les activer en CSS, avec la propriété "font-feature-settings".
+Il est possible de les activer en CSS, avec la propriété CSS `font-feature-settings`.
 
 Exemple: chargement de la fonte Inter, en activant trois fonctionnalités OpenType:
 
