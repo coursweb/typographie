@@ -14,10 +14,14 @@ permalink: fontes-variables.html
 * [https://variablefonts.io/](https://variablefonts.io/) - A Variable Fonts Primer
 * [https://www.axis-praxis.org/](https://www.axis-praxis.org/)
 * [https://web.dev/variable-fonts/](https://web.dev/variable-fonts/)
+
+Listes de fontes:
+
 * [https://v-fonts.com/](https://v-fonts.com/) : un site listant des Variable Fonts disponibles.
 * [https://fonts.google.com/variablefonts](https://fonts.google.com/variablefonts) : Liste des fontes variables disponibles sur Google Fonts, avec leurs paramètres (axes).
 
 Outils web pour inspecter des Variable Fonts:
+
 * [https://wakamaifondue.com/](https://wakamaifondue.com/) : outil web pour inspecter une fonte variable.
 * [Samsa](https://lorp.github.io/samsa/src/samsa-gui.html) :  interactively visualizes the mechanics of variable fonts in innovative ways
 
@@ -45,6 +49,8 @@ Exemples d'axes originaux:
 
 - **Recursive**, comporte un axe "Casual" (CASL). "Recursive uses its Casual axis to offer a range of personality, allowing you to get just the right tone for any context ... from a sturdy, rational Linear to a friendly, energetic Casual".
 - **Fraunces**, comporte un axe "Wonky" (WONK). "The Wonk axis controls the substitution of “wonky” characters".
+
+![Axes de Recursive](img/variable/recursive-axes.jpg)
 
 ### La propriété Optical Size
 
