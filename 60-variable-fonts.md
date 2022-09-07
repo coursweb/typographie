@@ -14,11 +14,13 @@ permalink: fontes-variables.html
 * [https://variablefonts.io/](https://variablefonts.io/) - A Variable Fonts Primer
 * [https://www.axis-praxis.org/](https://www.axis-praxis.org/)
 * [https://web.dev/variable-fonts/](https://web.dev/variable-fonts/)
+* [Variable Fonts Are Here to Stay](https://design.google/library/variable-fonts-are-here-to-stay/), By Dave Crossland and Laurence Penney (Google Design)
 
 Listes de fontes:
 
 * [https://v-fonts.com/](https://v-fonts.com/) : un site listant des Variable Fonts disponibles.
-* [https://fonts.google.com/variablefonts](https://fonts.google.com/variablefonts) : Liste des fontes variables disponibles sur Google Fonts, avec leurs paramètres (axes).
+* [Google Fonts catalog](https://fonts.google.com/?vfonly=true) (filter: variable fonts)
+*  [Google Fonts axes values table](https://fonts.google.com/variablefonts) : liste des fontes variables sur Google Fonts, avec leurs paramètres (axes).
 
 Outils web pour inspecter des Variable Fonts:
 
@@ -27,7 +29,7 @@ Outils web pour inspecter des Variable Fonts:
 
 La spécification CSS actuelle, CSS Fonts Module Level 4:
 
-* Sur le site CSS Working Group: https://drafts.csswg.org/css-fonts-4/
+* Sur le site CSS Working Group: [https://drafts.csswg.org/css-fonts-4/](https://drafts.csswg.org/css-fonts-4/)
 
 
 ## Les axes des fontes variables
@@ -50,12 +52,15 @@ Exemples d'axes originaux:
 - **Recursive**, comporte un axe "Casual" (CASL). "Recursive uses its Casual axis to offer a range of personality, allowing you to get just the right tone for any context ... from a sturdy, rational Linear to a friendly, energetic Casual".
 - **Fraunces**, comporte un axe "Wonky" (WONK). "The Wonk axis controls the substitution of “wonky” characters".
 
-![Axes de Recursive](img/variable/recursive-axes.jpg)
+![Axes de la fonte *Recursive*](img/variable/recursive-axes.jpg)
 
 ### La propriété Optical Size
 
-Exemple de modification de Optical Size:
-[https://variablefonts.typenetwork.com/examples/size/headlines-custom](https://variablefonts.typenetwork.com/examples/size/headlines-custom)
+Explication de la "Optical Size": il s'agit de modifications des formes de la lettre, en fonction de la taille d'affichage. Cela existait déjà à l'époque de la typographie en plomb.
+
+L'image ci-dessous montre les différentes tailles (de 72pts à 4pts) d'une fonte créée en 1894 (Century Expanded). Les petites tailles (à droite) ont été agrandies pour une meilleure comparaison.
+
+![Axes de la fonte *Recursive*](img/variable/Century_Expanded-a-normalized.jpeg)
 
 Selon Dave Crossland : "This tells browsers to control the optical size axis automatically — styles for headings, paragraphs, and captions all perfectly tuned, all from the same font."
 
@@ -110,17 +115,17 @@ Explications sur les URL Google Fonts:
 [https://developers.google.com/fonts/docs/css2#forming_api_urls](https://developers.google.com/fonts/docs/css2#forming_api_urls)
 
 
+## Codepens de démonstration:
 
-
-## Codepen de démonstration:
-
-Un codepen par Dave Crossland (lead ux programs and operations manager for Google Fonts) :
+"Recursive Mono &amp; Sans, all axes from Google Fonts API", un codepen par Dave Crossland (Google Fonts):
 
 <p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="eYRJeqp" data-user="davelab6" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/davelab6/pen/eYRJeqp">
   Recursive Mono &amp; Sans, all axes from Google Fonts API</a> by Dave Crossland (<a href="https://codepen.io/davelab6">@davelab6</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
+---
 
 "Simple weight slider for Hepta Slab", par Laurence Penney :
 
@@ -130,6 +135,8 @@ Un codepen par Dave Crossland (lead ux programs and operations manager for Googl
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
+---
+
 "Optical size for CSS authors", par Laurence Penney
 
 <p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="GXQmmZ" data-user="lorp" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -137,6 +144,8 @@ Un codepen par Dave Crossland (lead ux programs and operations manager for Googl
   Optical size for CSS authors</a> by Laurence Penney (<a href="https://codepen.io/lorp">@lorp</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
+---
 
 Une animation d'une Variable Font, en simple CSS:
 
@@ -146,6 +155,7 @@ Une animation d'une Variable Font, en simple CSS:
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
+---
 
 "Hepta Slab Wave Animation", par Dave Crossland:
 
@@ -155,8 +165,7 @@ Une animation d'une Variable Font, en simple CSS:
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-
-
+---
 
 ## Autres références
 
