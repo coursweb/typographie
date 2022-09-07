@@ -13,6 +13,7 @@ permalink: fontes-variables.html
 
 * [https://variablefonts.io/](https://variablefonts.io/) - A Variable Fonts Primer
 * [https://www.axis-praxis.org/](https://www.axis-praxis.org/)
+* [https://variablefonts.typenetwork.com/](https://variablefonts.typenetwork.com/)
 * [https://web.dev/variable-fonts/](https://web.dev/variable-fonts/)
 * [Variable Fonts Are Here to Stay](https://design.google/library/variable-fonts-are-here-to-stay/), By Dave Crossland and Laurence Penney (Google Design)
 
@@ -58,9 +59,9 @@ Exemples d'axes originaux:
 
 Explication de la "Optical Size": il s'agit de modifications des formes de la lettre, en fonction de la taille d'affichage. Cela existait déjà à l'époque de la typographie en plomb.
 
-L'image ci-dessous montre les différentes tailles (de 72pts à 4pts) d'une fonte créée en 1894 (Century Expanded). Les petites tailles (à droite) ont été agrandies pour une meilleure comparaison.
+L'image ci-dessous montre les différentes tailles (de 72pts à 4pts) d'une fonte créée en 1894 (*Century Expanded*). Les petites tailles (à droite) ont été agrandies pour une meilleure comparaison.
 
-![Axes de la fonte *Recursive*](img/variable/Century_Expanded-a-normalized.jpeg)
+![variations Optical Size de Century Expanded](img/variable/Century_Expanded-a-normalized.jpeg)
 
 Selon Dave Crossland : "This tells browsers to control the optical size axis automatically — styles for headings, paragraphs, and captions all perfectly tuned, all from the same font."
 
@@ -87,13 +88,13 @@ h1 {
 }
 ```
 
-### La propriété CSS `font-variation-settings`
+### La propriété CSS font-variation-settings
 
-La [spécification CSS indique](https://drafts.csswg.org/css-fonts-4/#font-variation-settings-def): 
+La [spécification CSS](https://drafts.csswg.org/css-fonts-4/#font-variation-settings-def) indique: 
 
-This property provides low-level control over OpenType or TrueType font variations. It is intended as a way of providing access to font variations that are not widely used but are needed for a particular use case.
+> This property provides low-level control over OpenType or TrueType font variations. It is intended as a way of providing access to font variations that are not widely used but are needed for a particular use case.
 
-Exemple: 
+Exemple (un cas extrême avec la fonte [Decovar](https://v-fonts.com/fonts/decovar), qui possède 15 axes variables): 
 
 ```css
 h1 {
@@ -103,9 +104,9 @@ h1 {
 
 Précisions de la spécification:
 
-When possible, authors should generally use the other properties related to font variations (such as `font-optical-sizing`), and only use this property for special cases where its use is the only way of accessing a particular infrequently used font variation.
-
-For example, it is preferable to use `font-weight: 700` rather than `font-variation-settings: "wght" 700`.
+> When possible, authors should generally use the other properties related to font variations (such as `font-optical-sizing`), and only use this property for special cases where its use is the only way of accessing a particular infrequently used font variation.
+>
+> For example, it is preferable to use `font-weight: 700` rather than `font-variation-settings: "wght" 700`.
 
 
 ## Charger une Variable Font depuis Google Fonts
@@ -149,8 +150,8 @@ Explications sur les URL Google Fonts:
 
 Une animation d'une Variable Font, en simple CSS:
 
-<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="ZEoGxMw" data-user="eracom" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/eracom/pen/ZEoGxMw">
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="wvjKVem" data-user="eracom" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/eracom/pen/wvjKVem">
   Variable font animation (Roboto)</a> by Manuel Schmalstieg (<a href="https://codepen.io/eracom">@eracom</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
