@@ -11,11 +11,12 @@ permalink: fontes-variables.html
 
 ## Références
 
-* [https://variablefonts.io/](https://variablefonts.io/)
+* [https://variablefonts.io/](https://variablefonts.io/) - A Variable Fonts Primer
 * [https://www.axis-praxis.org/](https://www.axis-praxis.org/)
 * [https://web.dev/variable-fonts/](https://web.dev/variable-fonts/)
 * [https://v-fonts.com/](https://v-fonts.com/) : un site listant des Variable Fonts disponibles.
 * [https://fonts.google.com/variablefonts](https://fonts.google.com/variablefonts) : Liste des fontes variables disponibles sur Google Fonts, avec leurs paramètres (axes).
+* [https://wakamaifondue.com/](https://wakamaifondue.com/) : outil web pour inspecter une fonte variable.
 
 La spécification CSS actuelle, CSS Fonts Module Level 4:
 
@@ -114,4 +115,10 @@ Un codepen qui montre l'animation d'une Variable Font:
 Long article sur la perfomance des fontes variables:
 
 [https://blog.logrocket.com/variable-fonts-is-the-performance-trade-off-worth-it/](https://blog.logrocket.com/variable-fonts-is-the-performance-trade-off-worth-it/)
+
+Pages de démonstration de fontes variables:
+
+- [Piazzolla](https://piazzolla.huertatipografica.com/)
+- [Fraunces](https://fraunces.undercase.xyz/)
+- [Recursive](https://www.recursive.design/)
 
