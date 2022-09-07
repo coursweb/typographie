@@ -17,20 +17,27 @@ permalink: fontes-variables.html
 * [https://web.dev/variable-fonts/](https://web.dev/variable-fonts/)
 * [Variable Fonts Are Here to Stay](https://design.google/library/variable-fonts-are-here-to-stay/), By Dave Crossland and Laurence Penney (Google Design)
 
-Listes de fontes:
+### Listes de fontes
 
 * [https://v-fonts.com/](https://v-fonts.com/) : un site listant des Variable Fonts disponibles.
 * [Google Fonts catalog](https://fonts.google.com/?vfonly=true) (filter: variable fonts)
 *  [Google Fonts axes values table](https://fonts.google.com/variablefonts) : liste des fontes variables sur Google Fonts, avec leurs paramètres (axes).
 
-Outils web pour inspecter des Variable Fonts:
+### Outils web pour inspecter des Variable Fonts
 
 * [https://wakamaifondue.com/](https://wakamaifondue.com/) : outil web pour inspecter une fonte variable.
 * [Samsa](https://lorp.github.io/samsa/src/samsa-gui.html) :  interactively visualizes the mechanics of variable fonts in innovative ways
 
-La spécification CSS actuelle, CSS Fonts Module Level 4:
+### La spécification CSS actuelle, CSS Fonts Module Level 4
 
 * Sur le site CSS Working Group: [https://drafts.csswg.org/css-fonts-4/](https://drafts.csswg.org/css-fonts-4/)
+
+### Belles pages de démonstration de fontes variables
+
+- [Piazzolla](https://piazzolla.huertatipografica.com/)
+- [Fraunces](https://fraunces.undercase.xyz/)
+- [Recursive](https://www.recursive.design/)
+
 
 
 ## Les axes des fontes variables
@@ -50,8 +57,8 @@ Ce sont les cinq axes définis dans la spécification OpenType. Selon TypeNetwor
 
 Exemples d'axes originaux:
 
-- **Recursive**, comporte un axe "Casual" (CASL). "Recursive uses its Casual axis to offer a range of personality, allowing you to get just the right tone for any context ... from a sturdy, rational Linear to a friendly, energetic Casual".
-- **Fraunces**, comporte un axe "Wonky" (WONK). "The Wonk axis controls the substitution of “wonky” characters".
+- La fonte **Recursive**, comporte un axe "Casual" (CASL). "Recursive uses its Casual axis to offer a range of personality, allowing you to get just the right tone for any context ... from a sturdy, rational Linear to a friendly, energetic Casual".
+- La fonte **Fraunces**, comporte un axe "Wonky" (WONK). "The Wonk axis controls the substitution of “wonky” characters".
 
 ![Axes de la fonte *Recursive*](img/variable/recursive-axes.jpg)
 
@@ -173,10 +180,4 @@ Une animation d'une Variable Font, en simple CSS:
 Long article sur la perfomance des fontes variables:
 
 [https://blog.logrocket.com/variable-fonts-is-the-performance-trade-off-worth-it/](https://blog.logrocket.com/variable-fonts-is-the-performance-trade-off-worth-it/)
-
-Pages de démonstration de fontes variables:
-
-- [Piazzolla](https://piazzolla.huertatipografica.com/)
-- [Fraunces](https://fraunces.undercase.xyz/)
-- [Recursive](https://www.recursive.design/)
 
