@@ -38,7 +38,7 @@ permalink: fontes-variables.html
 - [Fraunces](https://fraunces.undercase.xyz/)
 - [Recursive](https://www.recursive.design/)
 
-
+![Axes de la fonte *Fraunces*](img/variable/fraunces-axes.jpg)
 
 ## Les axes des fontes variables
 
