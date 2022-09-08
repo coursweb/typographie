@@ -70,13 +70,13 @@ L'image ci-dessous montre les différentes tailles (de 72pts à 4pts) d'une font
 
 ![variations Optical Size de Century Expanded](img/variable/Century_Expanded-a-normalized.jpeg)
 
+Cette valeur est pensée pour correspondre à un taille de fontes en pixels, et garantir la meilleure lisibilité. Selon les fontes, les valeurs peuvent aller de 7 à 72 (pour *Literata*), ou de 8 à 144 (pour *Roboto Flex*). 
+
 Selon Dave Crossland : "This tells browsers to control the optical size axis automatically — styles for headings, paragraphs, and captions all perfectly tuned, all from the same font."
 
-Cette valeur est pensée pour correspondre à un taille de fontes en pixels, et garantir la meilleure lisibilité. Donc pour une fonte affichée en taille de 14 pixels, on règle opsz à 14 pour un rendu optimisé. Selon les fontes, les valeurs peuvent aller de 7 à 72 (pour *Literata*), ou de 8 à 144 (pour *Roboto Flex*). 
+Quand une fonte variable possède un axe "opsz", le rendu sera donc automatique (s'adaptant à la taille de la fonte).
 
 La propriété CSS `font-optical-sizing` possède seulement deux options: `auto` et `none`. Le réglage par défaut est "auto".
-
-Quand une fonte variable possède un axe "opsz", le rendu sera donc automatique (s'adaptant à la taille de la fonte).
 
 L'unique fonction de la propriété `font-optical-sizing` est de désactiver cet ajustement automatique (en choisissant "none").
 
@@ -121,6 +121,10 @@ Précisions de la spécification:
 Explications sur les URL Google Fonts: 
 
 [https://developers.google.com/fonts/docs/css2#forming_api_urls](https://developers.google.com/fonts/docs/css2#forming_api_urls)
+
+Quelques explications sont données dans cette vidéo (Debug TV, épisode 1): 
+
+<iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/E9OkJLFqZks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Codepens de démonstration:
