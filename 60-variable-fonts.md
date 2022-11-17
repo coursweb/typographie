@@ -70,15 +70,13 @@ L'image ci-dessous montre les différentes tailles (de 72pts à 4pts) d'une font
 
 ![variations Optical Size de Century Expanded](img/variable/Century_Expanded-a-normalized.jpeg)
 
-Cette valeur est pensée pour correspondre à un taille de fontes en pixels, et garantir la meilleure lisibilité. Selon les fontes, les valeurs peuvent aller de 7 à 72 (pour *Literata*), ou de 8 à 144 (pour *Roboto Flex*). 
+Ajourd'hui, dans les fontes numériques, cette valeur est pensée pour correspondre à une taille de fontes en pixels, et garantir la meilleure lisibilité. Selon les fontes, les valeurs peuvent aller de 7 à 72 (pour *Literata*), ou de 8 à 144 (pour *Roboto Flex*). 
 
 Selon Dave Crossland : "This tells browsers to control the optical size axis automatically — styles for headings, paragraphs, and captions all perfectly tuned, all from the same font."
 
-Quand une fonte variable possède un axe "opsz", le rendu sera donc automatique (s'adaptant à la taille de la fonte).
+Quand une fonte variable possède un axe "opsz", l'ajustement de sa valeur est automatique (s'adaptant à la taille de la fonte). Sinon, on serait obligé de modifier cette valeur à chaque changement de taille, ce qui serait peu pratique!
 
-La propriété CSS `font-optical-sizing` possède seulement deux options: `auto` et `none`. Le réglage par défaut est "auto".
-
-L'unique fonction de la propriété `font-optical-sizing` est de désactiver cet ajustement automatique (en choisissant "none").
+La propriété CSS `font-optical-sizing` possède seulement deux options: `auto` et `none`. Le réglage par défaut est "auto". L'unique fonction de la propriété `font-optical-sizing` est donc de désactiver cet ajustement automatique (en choisissant "none").
 
 ```css
 h1 {
@@ -86,7 +84,7 @@ h1 {
 }
 ```
 
-Il est aussi possible de forcer une valeur numérique (différente de celle choisie automatiquement), en utilisant les `font-variation-settings`, comme ci-dessous.
+Il est aussi possible de "forcer" une valeur spécifique (différente de celle choisie automatiquement), en utilisant les `font-variation-settings`, comme ci-dessous.
 
 ```css
 h1 {
