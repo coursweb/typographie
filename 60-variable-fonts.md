@@ -9,40 +9,15 @@ permalink: fontes-variables.html
 - [*Introducing OpenType Variable Fonts*](https://medium.com/variable-fonts/https-medium-com-tiro-introducing-opentype-variable-fonts-12ba6cd2369), par John Hudson, 2016
 
 
-## Références
 
-* [https://variablefonts.io/](https://variablefonts.io/) - A Variable Fonts Primer
-* [https://www.axis-praxis.org/](https://www.axis-praxis.org/)
-* [https://variablefonts.typenetwork.com/](https://variablefonts.typenetwork.com/)
-* [https://web.dev/variable-fonts/](https://web.dev/variable-fonts/)
-* [Variable Fonts Are Here to Stay](https://design.google/library/variable-fonts-are-here-to-stay/), By Dave Crossland and Laurence Penney (Google Design)
-
-### Listes de fontes
-
-* [https://v-fonts.com/](https://v-fonts.com/) : un site listant des Variable Fonts disponibles.
-* [Google Fonts catalog](https://fonts.google.com/?vfonly=true) (filter: variable fonts)
-*  [Google Fonts axes values table](https://fonts.google.com/variablefonts) : liste des fontes variables sur Google Fonts, avec leurs paramètres (axes).
-
-### Outils web pour inspecter des Variable Fonts
-
-* [https://wakamaifondue.com/](https://wakamaifondue.com/) : outil web pour inspecter une fonte variable.
-* [Samsa](https://lorp.github.io/samsa/src/samsa-gui.html) :  interactively visualizes the mechanics of variable fonts in innovative ways
-
-### La spécification CSS actuelle, CSS Fonts Module Level 4
-
-* Sur le site CSS Working Group: [https://drafts.csswg.org/css-fonts-4/](https://drafts.csswg.org/css-fonts-4/)
-
-### Belles pages de démonstration de fontes variables
-
-- [Piazzolla](https://piazzolla.huertatipografica.com/)
-- [Fraunces](https://fraunces.undercase.xyz/)
-- [Recursive](https://www.recursive.design/)
 
 ![Axes de la fonte *Fraunces*](img/variable/fraunces-axes.jpg)
 
 ## Les axes des fontes variables
 
-Selon la spécification OpenType Font Variations, qui a standardisé les fontes variables, il existe cinq axes standard:
+### Les cinq axes standard
+
+Selon la spécification OpenType Font Variations, qui a standardisé les fontes variables, il existe cinq axes standard (registered axes):
 
 - **Weight `<wght>`** : "Adjust the style from lighter to bolder in typographic color, by varying stroke weights, spacing and kerning, and other aspects of the type." Norme: "a value of 100 is thin, 400 is regular, 800 is extra bold"
 - **Width `<wdth>`** : "Adjust the style from narrower to wider, by varying the proportions of counters, strokes, spacing and kerning, and other aspects of the type. This typically changes the typographic color in a subtle way, and so may be used in conjunction with Width and Grade axes." Norme: "100 is normal width, 200 is double-width, 50 is half-width"
@@ -50,47 +25,45 @@ Selon la spécification OpenType Font Variations, qui a standardisé les fontes 
 - **Slant `<slnt>`** : "Adjust the style from upright to slanted, also known to typographers as an 'oblique' style." Norme: "the value sets the slant angle in degrees".
 - **Optical size `<opsz>`** : "Adapt the style to specific text sizes. At smaller sizes, letters typically become optimized for more legibility. At larger sizes, optimized for headlines, with more extreme weights and widths." Norme: "the value sets a point size that the design can respond to".
 
-
 Ce sont les cinq axes définis dans la spécification OpenType. Selon TypeNetwork: "No other registered axes exists, i.e. axes definitions written into the specification of Opentype 1.8, but variable fonts can contain numerous  custom (unregistered) axes, for variation of styles that are new or unfamiliar to users."
+
+### Les axes "custom"
 
 [Dave Crossland](https://design.google/library/variable-fonts-are-here-to-stay/) (Google Fonts) donne quelques exemples : "A font can have its own axes beyond those 5 to customize any other elements, like x-height, serif style, stroke contrast, and vertical alignment."
 
 Exemples d'axes originaux:
 
-- La fonte **Recursive**, comporte un axe "Casual" (CASL). "Recursive uses its Casual axis to offer a range of personality, allowing you to get just the right tone for any context ... from a sturdy, rational Linear to a friendly, energetic Casual".
-- La fonte **Fraunces**, comporte un axe "Wonky" (WONK). "The Wonk axis controls the substitution of “wonky” characters".
+- La fonte **Recursive**, comporte un axe "Casual" (CASL). "Recursive uses its Casual axis to offer a range of personality, allowing you to get just the right tone for any context ... from a sturdy, rational Linear to a friendly, energetic Casual". Voir [Recursive](https://www.recursive.design/).
+- La fonte **Fraunces**, comporte un axe "Wonky" (WONK). "The Wonk axis controls the substitution of “wonky” characters". Voir [Fraunces](https://fraunces.undercase.xyz/).
 
 ![Axes de la fonte *Recursive*](img/variable/recursive-axes.jpg)
 
 ### La propriété Optical Size
 
-Explication de la "Optical Size": il s'agit de modifications des formes de la lettre, en fonction de la taille d'affichage. Cela existait déjà à l'époque de la typographie en plomb.
+La propriété "Optical Size" (taille optique) est une fonctionnalité très utile des fontes variables, qui permet d'améliorer la lisibilité du texte.
 
-L'image ci-dessous montre les différentes tailles (de 72pts à 4pts) d'une fonte créée en 1894 (*Century Expanded*). Les petites tailles (à droite) ont été agrandies pour une meilleure comparaison.
+Le prinicpe de la "taille optique" consiste à modifier les détails de la lettre, en fonction de la taille d'affichage. Cela existait déjà à l'époque de la typographie en plomb.
+
+L'image ci-dessous montre les différentes tailles (de 72pts à 4pts) d'une fonte créée en 1894 (*Century Expanded*). Les petites tailles (à droite) ont été agrandies pour mieux les comparer.
 
 ![variations Optical Size de Century Expanded](img/variable/Century_Expanded-a-normalized.jpeg)
 
-Cette valeur est pensée pour correspondre à un taille de fontes en pixels, et garantir la meilleure lisibilité. Selon les fontes, les valeurs peuvent aller de 7 à 72 (pour *Literata*), ou de 8 à 144 (pour *Roboto Flex*). 
+La valeur "Optical Size" est pensée pour correspondre à une taille de fonte, et garantir la meilleure lisibilité. Selon les fontes, les valeurs vont de 7 à 72 (pour *Literata*), ou de 8 à 144 (pour *Roboto Flex*). 
 
-Selon Dave Crossland : "This tells browsers to control the optical size axis automatically — styles for headings, paragraphs, and captions all perfectly tuned, all from the same font."
+Selon [Dave Crossland](https://design.google/library/variable-fonts-are-here-to-stay/) : "This tells browsers to control the optical size axis automatically — styles for headings, paragraphs, and captions all perfectly tuned, all from the same font."
 
 Quand une fonte variable possède un axe "opsz", le rendu sera donc automatique (s'adaptant à la taille de la fonte).
 
-La propriété CSS `font-optical-sizing` possède seulement deux options: `auto` et `none`. Le réglage par défaut est "auto".
+La propriété CSS `font-optical-sizing` possède les options suivantes: 
 
-L'unique fonction de la propriété `font-optical-sizing` est de désactiver cet ajustement automatique (en choisissant "none").
+- `auto`. C'est le réglage par défaut, il n'est donc pas nécessaire de le spécifier. L'aspect va s'adapter automatiquement selon la taille de la fonte. 
+- `none`. Désactive cette fonctionnalité.
+- un chiffre fixe. Permet de forcer une valeur numérique (différente de celle qui serait choisie automatiquement).
 
-```css
-h1 {
-  font-optical-sizing: none;
-}
-```
-
-Il est aussi possible de forcer une valeur numérique (différente de celle choisie automatiquement), en utilisant les `font-variation-settings`, comme ci-dessous.
+Voici un exemple qui force l'affichage prévu pour une taille de 8px:
 
 ```css
 h1 {
-  font-size: 3rem;
   font-variation-settings: "opsz" 8;
 }
 ```
@@ -178,6 +151,35 @@ Une animation d'une Variable Font, en simple CSS:
 </p>
 
 ---
+
+## Références
+
+* [https://variablefonts.io/](https://variablefonts.io/) - A Variable Fonts Primer
+* [https://www.axis-praxis.org/](https://www.axis-praxis.org/)
+* [https://variablefonts.typenetwork.com/](https://variablefonts.typenetwork.com/)
+* [https://web.dev/variable-fonts/](https://web.dev/variable-fonts/)
+* [Variable Fonts Are Here to Stay](https://design.google/library/variable-fonts-are-here-to-stay/), By Dave Crossland and Laurence Penney (Google Design)
+
+### Listes de fontes
+
+* [https://v-fonts.com/](https://v-fonts.com/) : un site listant des Variable Fonts disponibles.
+* [Google Fonts catalog](https://fonts.google.com/?vfonly=true) (filter: variable fonts)
+*  [Google Fonts axes values table](https://fonts.google.com/variablefonts) : liste des fontes variables sur Google Fonts, avec leurs paramètres (axes).
+
+### Outils web pour inspecter des Variable Fonts
+
+* [https://wakamaifondue.com/](https://wakamaifondue.com/) : outil web pour inspecter une fonte variable.
+* [Samsa](https://lorp.github.io/samsa/src/samsa-gui.html) :  interactively visualizes the mechanics of variable fonts in innovative ways
+
+### La spécification CSS actuelle, CSS Fonts Module Level 4
+
+* Sur le site CSS Working Group: [https://drafts.csswg.org/css-fonts-4/](https://drafts.csswg.org/css-fonts-4/)
+
+### Belles pages de démonstration de fontes variables
+
+- [Piazzolla](https://piazzolla.huertatipografica.com/)
+- [Fraunces](https://fraunces.undercase.xyz/)
+- [Recursive](https://www.recursive.design/)
 
 ## Autres références
 
