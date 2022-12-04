@@ -6,12 +6,9 @@ permalink: fontes-variables.html
 
 En 2016, la nouvelle spécification OpenType, présentée par Microsoft, Apple, Adobe et Google, a introduit une nouvelle technologie: les "variable fonts".
 
-> Version 1.8 of the OpenType font format specification introduces an extensive new technology, affecting almost every area of the format. An **OpenType variable font** is one in which the equivalent of multiple individual fonts can be compactly packaged within a single font file. This is done by defining variations within the font, which constitute a single- or multi-axis design space within which many font instances can be interpolated. 
+> La version 1.8 de la spécification du format OpenType introduit une nouvelle technologie qui affecte quasiment tous les aspects de ce format. Dans une fonte variable OpenType, de nombreuses fontes individuelles peuvent être combinées en un fichier unique. Cela est possible en définissant les variations de la fonte, située dans un espace à un ou plusiers axes, tout au long desquels de nombreuses instances peuvent être interpolées.
 
 - [*Introducing OpenType Variable Fonts*](https://medium.com/variable-fonts/https-medium-com-tiro-introducing-opentype-variable-fonts-12ba6cd2369), par John Hudson, 2016
-
-
-
 
 ![Axes de la fonte *Fraunces*](img/variable/fraunces-axes.jpg)
 
@@ -19,10 +16,10 @@ En 2016, la nouvelle spécification OpenType, présentée par Microsoft, Apple, 
 
 ### Les cinq axes standard
 
-Selon la spécification OpenType Font Variations, qui a standardisé les fontes variables, il existe cinq axes standard (registered axes):
+Les variations des fontes variables opèrent dans des espaces nommés "axes". La spécification OpenType a défini cinq axes standard (*registered axes*) pouvant être utilisés:
 
-- **Weight `<wght>`** : "Adjust the style from lighter to bolder in typographic color, by varying stroke weights, spacing and kerning, and other aspects of the type." Norme: "a value of 100 is thin, 400 is regular, 800 is extra bold"
-- **Width `<wdth>`** : "Adjust the style from narrower to wider, by varying the proportions of counters, strokes, spacing and kerning, and other aspects of the type. This typically changes the typographic color in a subtle way, and so may be used in conjunction with Width and Grade axes." Norme: "100 is normal width, 200 is double-width, 50 is half-width"
+- **Weight `<wght>`** : C'est la "graisse" de la fonte. Elle permet d'ajuster le style en passant du fin au gras, en variant l'épasseur des traits, l'espacement, le kerning, et d'autres aspects de la fonte. La norme: une valeur de 100 est très légère (*thin*), 400 correspond au "*regular*", et 800 est un *extra-bold*.
+- **Width `<wdth>`** : "Adjust the style from narrower to wider, by varying the proportions of counters, strokes, spacing and kerning, and other aspects of the type. This typically changes the typographic color in a subtle way, and so may be used in conjunction with Width and Grade axes." Norme: 100 est la largeur normale, 200 une largeur double, 50 une demi-largeur.
 - **Italic `<ital>`** : "Adjust the style from roman to italic. This can be provided as a continuous range within a single font file, like most axes, or as a toggle between two roman and italic files that form a family as a pair." Norme: "0 means roman letters and 1 means italic forms".
 - **Slant `<slnt>`** : "Adjust the style from upright to slanted, also known to typographers as an 'oblique' style." Norme: "the value sets the slant angle in degrees".
 - **Optical size `<opsz>`** : "Adapt the style to specific text sizes. At smaller sizes, letters typically become optimized for more legibility. At larger sizes, optimized for headlines, with more extreme weights and widths." Norme: "the value sets a point size that the design can respond to".
@@ -44,7 +41,7 @@ Exemples d'axes originaux:
 
 La propriété "Optical Size" (taille optique) est une fonctionnalité très utile des fontes variables, qui permet d'améliorer la lisibilité du texte.
 
-Le prinicpe de la "taille optique" consiste à modifier les détails de la lettre, en fonction de la taille d'affichage. Cela existait déjà à l'époque de la typographie en plomb.
+Le principe de la "taille optique" consiste à modifier les détails de la lettre, en fonction de la taille d'affichage. Cela existait déjà à l'époque de la typographie en plomb.
 
 L'image ci-dessous montre les différentes tailles (de 72pts à 4pts) d'une fonte créée en 1894 (*Century Expanded*). Les petites tailles (à droite) ont été agrandies pour mieux les comparer.
 
@@ -56,16 +53,18 @@ Selon [Dave Crossland](https://design.google/library/variable-fonts-are-here-to-
 
 Quand une fonte variable possède un axe "opsz", l'ajustement de sa valeur est automatique (s'adaptant à la taille de la fonte). Sinon, on serait obligé de modifier cette valeur à chaque changement de taille, ce qui serait peu pratique!
 
-La propriété CSS `font-optical-sizing` possède les options suivantes: 
+La propriété CSS `font-optical-sizing` possède seulement deux options: 
 
 - `auto`. C'est le réglage par défaut, il n'est donc pas nécessaire de le spécifier. L'aspect va s'adapter automatiquement selon la taille de la fonte. 
 - `none`. Désactive cette fonctionnalité.
-- un chiffre fixe. Permet de forcer une valeur numérique (différente de celle qui serait choisie automatiquement).
 
-Voici un exemple qui force l'affichage prévu pour une taille de 8px:
+Une troisième possibilité: définir un chiffre fixe, via la propriété `font-variation-settings`. Cela permet de "forcer" une taille optique précise, différente de celle choisie automatiquement.
+
+Voici un exemple qui force l'affichage prévu pour une taille de 8 points, quelle que soit la taille du texte :
 
 ```css
 h1 {
+  font-size: 3rem;
   font-variation-settings: "opsz" 8;
 }
 ```
@@ -74,7 +73,7 @@ h1 {
 
 La [spécification CSS](https://drafts.csswg.org/css-fonts-4/#font-variation-settings-def) indique: 
 
-> This property provides low-level control over OpenType or TrueType font variations. It is intended as a way of providing access to font variations that are not widely used but are needed for a particular use case.
+> Cette propriété permet un contrôle de bas niveau sur des variations OpenType ou TrueType. Elle est prévue pour accéder à des variations rarement utilisées, pour des cas d'usage précis.
 
 Exemple (un cas extrême avec la fonte [Decovar](https://v-fonts.com/fonts/decovar), qui possède 15 axes variables): 
 
