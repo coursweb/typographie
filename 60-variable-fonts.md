@@ -4,6 +4,8 @@ title: Fontes Variables
 permalink: fontes-variables.html
 ---
 
+En 2016, la nouvelle spécification OpenType, présentée par Microsoft, Apple, Adobe et Google, a introduit une nouvelle technologie: les "variable fonts".
+
 > Version 1.8 of the OpenType font format specification introduces an extensive new technology, affecting almost every area of the format. An **OpenType variable font** is one in which the equivalent of multiple individual fonts can be compactly packaged within a single font file. This is done by defining variations within the font, which constitute a single- or multi-axis design space within which many font instances can be interpolated. 
 
 - [*Introducing OpenType Variable Fonts*](https://medium.com/variable-fonts/https-medium-com-tiro-introducing-opentype-variable-fonts-12ba6cd2369), par John Hudson, 2016
@@ -48,11 +50,11 @@ L'image ci-dessous montre les différentes tailles (de 72pts à 4pts) d'une font
 
 ![variations Optical Size de Century Expanded](img/variable/Century_Expanded-a-normalized.jpeg)
 
-La valeur "Optical Size" est pensée pour correspondre à une taille de fonte, et garantir la meilleure lisibilité. Selon les fontes, les valeurs vont de 7 à 72 (pour *Literata*), ou de 8 à 144 (pour *Roboto Flex*). 
+Ajourd'hui, dans les fontes numériques, cette valeur est pensée pour correspondre à une taille de fontes en pixels, et garantir la meilleure lisibilité. Selon les fontes, les valeurs peuvent aller de 7 à 72 (pour *Literata*), ou de 8 à 144 (pour *Roboto Flex*). 
 
 Selon [Dave Crossland](https://design.google/library/variable-fonts-are-here-to-stay/) : "This tells browsers to control the optical size axis automatically — styles for headings, paragraphs, and captions all perfectly tuned, all from the same font."
 
-Quand une fonte variable possède un axe "opsz", le rendu sera donc automatique (s'adaptant à la taille de la fonte).
+Quand une fonte variable possède un axe "opsz", l'ajustement de sa valeur est automatique (s'adaptant à la taille de la fonte). Sinon, on serait obligé de modifier cette valeur à chaque changement de taille, ce qui serait peu pratique!
 
 La propriété CSS `font-optical-sizing` possède les options suivantes: 
 
