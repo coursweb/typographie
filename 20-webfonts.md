@@ -49,7 +49,7 @@ body {
 
 #### Familles de fontes
 
-Quand on souhaite utiliser plusieurs variantes – par exemple Univers en *55 Roman* et *65 Bold* – on peut les déclarer comme une même famille:
+Quand on souhaite utiliser plusieurs variantes – par exemple Univers en *55 Roman*, *55 Italic* et *65 Bold* – on peut les déclarer comme une même famille:
 
 ```css
 @font-face {
@@ -60,39 +60,48 @@ Quand on souhaite utiliser plusieurs variantes – par exemple Univers en *55 Ro
 
 @font-face {
   font-family: 'Univers';
+  src: url(univers-55-italic.woff);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Univers';
   src: url(univers-65-bold.woff);
   font-weight: bold;
 }
 ```
 
+Il suffit ensuite d'appliquer `font-family: "Univers"` et la fonte sera correctement appliquée (avec la variante italic ou bold dans les cas nécessaires).
+
 #### Charger plusieurs formats
 
 Un problème rencontré lors de l'utilisation de webfonts est que les divers navigateurs utilisent des formats de fontes différents.
 
-Voici une liste de formats possibles:
+Voici une liste de formats courants pour le web:
 
 - **woff** : format compressé, conçu pour le web
-- **woff2** : format compressé, amélioration du format woff2
-- **ttf** : True Type Font, format aussi utilisé pour l'impression
-- **otf** : Open Type Font, format aussi utilisé pour l'impression
-- **eot** : format compressé utilisé par Microsoft (Internet Explorer)
+- **woff2** : format compressé, amélioration du format WOFF
 
-Le format WOFF est un nouveau format développé pour le web. Il s'agit de fichiers OTF compressés afin de charger plus rapidement.
+Le format WOFF est un format développé pour le web. Il s'agit de fichiers OTF compressés afin de charger plus rapidement.
 
-Le support des navigateurs pour les formats woff et woff2 ayant fait des progrès, [le site css-tricks](https://css-tricks.com/snippets/css/using-font-face/) propose en 2016 d'utiliser la syntaxe suivante:
+Le support des navigateurs pour les formats woff et woff2 ayant fait des progrès, [le site css-tricks](https://css-tricks.com/snippets/css/using-font-face/) propose en 2022 d'utiliser la syntaxe suivante:
 
 ```css
 @font-face {
   font-family: 'MyWebFont';
   src: url('myfont.woff2') format('woff2'),
-       url('myfont.woff') format('woff'),
-       url('myfont.ttf') format('truetype');
+       url('myfont.woff') format('woff');
 }
 ```
 
 La même syntaxe [est préconisée par Bram Stein](http://alistapart.com/article/using-webfonts) sur A List Apart en 2017.
 
-Dans la période intiale des webfonts, entre 2011 - 2016, des syntaxes plus compliquées étaient utilisées, ajoutant d'autres formats comme SVG (pour appareils iOS) et EOT (pour Internet Explorer). Ces formats ne sont désormais plus nécessaires.
+Dans la période intiale des webfonts, entre 2011 - 2016, des syntaxes plus compliquées étaient utilisées, ajoutant d'autres formats comme SVG (pour appareils iOS), EOT (pour Internet Explorer) et TTF. Ces formats ne sont désormais plus nécessaires.
+
+Formats non-optimisés pour le web:
+- **ttf** : True Type Font, format aussi utilisé pour l'impression
+- **otf** : Open Type Font, format aussi utilisé pour l'impression
+- **eot** : format compressé utilisé par Microsoft (Internet Explorer)
 
 ### Retour à un Font-Stack minimal
 
