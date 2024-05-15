@@ -70,6 +70,9 @@ Fonte en trois variantes, Serif, Sans-Serif et Monospaced.
 **Fraunces**, une fonte de Phaedra Charles:  
 [https://fraunces.undercase.xyz/](https://fraunces.undercase.xyz/)
 
+**Shantell Sans**, une alternative à Comic Sans, par Shantell Martin
+[https://material.io/blog/shantell-martin-variable-font](https://material.io/blog/shantell-martin-variable-font)
+
 **Space Grotesk**, une fonte de Florian Karsten, basée sur Space Mono
 [https://floriankarsten.github.io/space-grotesk/](https://floriankarsten.github.io/space-grotesk/)
 

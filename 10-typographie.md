@@ -67,6 +67,16 @@ Autres propriétés:
 * **text-decoration** : permet d'appliquer un <span style="text-decoration:underline">soulignement</span>.
 * **font-stretch** : permet de spécifier l'utilisation d'une fonte *condensed*, *semi-condensed*, *ultra-condensed* etc.
 
+Exemple:
+
+```css
+h1 {
+  line-height: 1.3;
+  text-transform: lowercase;
+  text-decoration: underline;
+}
+```
+
 ## Réglages typographiques avancés
 
 - **text-align** (left, right, center, justify) : alignement
@@ -74,6 +84,16 @@ Autres propriétés:
 - **word-spacing** : espacement entre les mots
 - **letter-spacing** : espacement des caractères
 - **vertical-align** : alignement sur la ligne de base. Cf. [The vertical-align Property](https://bitsofco.de/the-vertical-align-property/), par Ire Aderinokun.
+
+Exemple:
+
+```css
+p {
+  text-align: left;
+  letter-spacing: .1em;
+  text-indent: 1em
+}
+```
 
 ### Retrait
 
