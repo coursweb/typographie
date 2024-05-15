@@ -17,6 +17,8 @@ Open Font Library:
 
 #### Sélections de fontes libres
 
+Les [Fontes typo IMD](https://code.eracom-pedagogique.ch/fontes-imd/), une sélection de fontes libres recommandées, pour la filière Interactive Media Designer à l'Eracom.
+
 Les "Hot 30", une sélection de 30 fontes libres, projet de Stefan Endress et Alastair O’Shea:  
 [http://www.open-foundry.com/hot30](http://www.open-foundry.com/hot30)
 
@@ -48,31 +50,8 @@ Les fontes du studio Uplaod:
 [http://uplaod.fr/allfonts](http://uplaod.fr/allfonts)  
 [https://github.com/uplaod](https://github.com/uplaod)
 
-Les fontes d'Alfredo Marco Pradil (certaines sous licence libre):  
-[https://fontlibrary.org/en/member/hanken](https://fontlibrary.org/en/member/hanken)  
-[https://sellfy.com/hankendesignco](https://sellfy.com/hankendesignco)
 
-### Quelques coups de cœur
-
-**Bagnard**, et **Bagnard Sans**:     
-[http://www.love-letters.be/](http://www.love-letters.be/ )  
-[https://github.com/sebsan/Bagnard-Sans](https://github.com/sebsan/Bagnard-Sans) 
-
-**Gidole**, open-source modern DIN:  
-[https://github.com/larsenwork/Gidole](https://github.com/larsenwork/Gidole)
-
-**Infini**, une fonte de Sandrine Nugue:  
-[http://cnap.graphismeenfrance.fr/infini/](http://cnap.graphismeenfrance.fr/infini/)  
-[Une extension WordPress](https://github.com/eracom/infini-pour-deppo) pour charger la fonte.
-
-**Work Sans**  
-[https://github.com/weiweihuanghuang/Work-Sans](https://github.com/weiweihuanghuang/Work-Sans)
-
-**Fira mono**, par Erik Spiekermann   
-[https://github.com/mozilla/Fira](https://github.com/mozilla/Fira)
-
-**Source code pro**, par Adobe   
-[https://github.com/adobe-fonts/source-code-pro](https://github.com/adobe-fonts/source-code-pro)
+### Quelques fontes open source à connaître
 
 **IBM Plex**, par IBM   
 Fonte en trois variantes, Serif, Sans-Serif et Monospaced.   
@@ -85,46 +64,27 @@ Fonte en trois variantes, Serif, Sans-Serif et Monospaced.
 
 ![La fonte Inter UI](img/inter-ui-font.jpg)
 
-## Fontes commerciales helvétiques
+**Infini**, une fonte de Sandrine Nugue:  
+[https://www.cnap.fr/sites/infini/](https://www.cnap.fr/sites/infini/)  
 
-Quelques fonderies Suisses intéressantes, qui commercialisent leurs fontes pour un usage print et webfont:
+**Fraunces**, une fonte de Phaedra Charles:  
+[https://fraunces.undercase.xyz/](https://fraunces.undercase.xyz/)
 
-**Swiss Typefaces**   
-[https://www.swisstypefaces.com](https://www.swisstypefaces.com)
+**Space Grotesk**, une fonte de Florian Karsten, basée sur Space Mono
+[https://floriankarsten.github.io/space-grotesk/](https://floriankarsten.github.io/space-grotesk/)
 
-**Fatype**   
-[https://fatype.com/](https://fatype.com/)
+## Services de webfonts sous license
 
-**Dinamo Typefaces**    
-[http://www.abcdinamo.com/](http://www.abcdinamo.com/)
-
-**Altiplano Typefaces**  
-[https://www.altiplano.xyz/](https://www.altiplano.xyz/)
-
-**Optimo Type Foundry**  
-[https://www.optimo.ch/](https://www.optimo.ch/)
-
-**Lineto**  
-[https://lineto.com/](https://lineto.com/)
-
-**Grilli Type**  
-[https://www.grillitype.com/](https://www.grillitype.com/)
-
-**ECAL Typefaces**  
-[https://ecal-typefaces.ch/ ](https://ecal-typefaces.ch/ )
-
-## Services de distribution
-
-Depuis 2009, plusieurs services de vente de fontes, par formule d'abonnement (Typekit) ou par achat unique (Fontspring) sont apparus sur le web.
+Depuis 2009, plusieurs services de vente de fontes, par formule d'abonnement, ou par achat unique, sont apparus sur le web.
 
 Ces services ont l'avantage de proposer un grand choix de fontes, provenant de fonderies avec lesquelles ces plateformes collaborent. Voici quelques services:
 
 * [Adobe Fonts](https://fonts.adobe.com/) - anciennement Typekit, l'un des premiers services webfont, par abonnement, acquis par Adobe en 2011.
 * [Fontspring](https://www.fontspring.com/) - plateforme lancée par Ethan Dunham, créateur de [Fontsquirrel](https://www.fontsquirrel.com/).
-* [Webtype](https://www.webtype.com/) - propose un catalogue d'environ 120 fontes, notamment celles de Font Bureau.
+* [Type Network](https://typenetwork.com/) - propose un catalogue fourni par 60 fonderies, notamment Font Bureau.
+* [Hoefler&Co](https://www.typography.com/), service exclusif pour utiliser les fontes de Hoefler&Co.
 * [Fonts.com](https://www.fonts.com/), un service appartenant à Monotype (compagnie fondée en 1887). Propose un catalogue de 20'000 fontes.
 * [MyFonts](https://www.myfonts.com/), un service appartenant aussi à Monotype, proposant plus de 130'000 fontes.
-* [Hoefler&Co](https://www.typography.com/), service exclusif pour utiliser les fontes de Hoefler&Co.
 
 ![Site de Typekit, en 2016.](img/adobe-typekit.jpg)
 
@@ -146,7 +106,6 @@ Il peut être intéressant de combiner deux fontes pour un effet de contraste, e
 
 Quelques ressources:
 
-* [fonts.greatsimple.io](http://fonts.greatsimple.io/), cinq belles combinaisons de fontes, par Great Simple Studio.
 * [Google Fonts Combinations](https://www.typewolf.com/blog/google-fonts-combinations), par Jeremiah Shoaf.
 * [The Step-by-Step Guide for Pairing Fonts](https://learnui.design/blog/guide-pairing-fonts.html), par Erik D. Kennedy
 
