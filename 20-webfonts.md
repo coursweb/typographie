@@ -103,7 +103,7 @@ Formats non-optimisés pour le web:
 - **otf** : Open Type Font, format aussi utilisé pour l'impression
 - **eot** : format compressé utilisé par Microsoft (Internet Explorer)
 
-### Retour à un Font-Stack minimal
+### Retour à un Font-Stack optimisé
 
 En 2016, les développeurs de WordPress décident de retourner à un "font-stack" minimal, faisant appel aux fontes système (plutôt que de charger Open Sans via Google Fonts). 
 
