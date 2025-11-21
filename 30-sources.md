@@ -46,11 +46,6 @@ Limousine, Le Patin Helvète, Crickx...
 
 ![Quelques caractères de la Crickx, fonte vernaculaire bruxelloise, numérisée par OSP.](img/crickx-web.jpg)
 
-Les fontes du studio Uplaod:  
-[http://uplaod.fr/allfonts](http://uplaod.fr/allfonts)  
-[https://github.com/uplaod](https://github.com/uplaod)
-
-
 ### Quelques fontes open source à connaître
 
 **IBM Plex**, par IBM   
@@ -98,10 +93,6 @@ Depuis 2010, Google Fonts est un service d'hébergement gratuit de fontes pour l
 Le projet est piloté depuis ses débuts par Dave Crossland, un alumni du master de design typogaphique de l'université de Reading, Angleterre.
 
 ![Goodgle Fonts, une sélection de fontes Google par Frank Adebiaye.](img/goodgle-fonts.png)
-
-#### Inclure une fonte Google dans son code:
-
-Le fonctionnement est simple. Il suffit de choisir une police parmi la liste. Ensuite, en cliquant sur *Use this font*, on nous demande de suivre les instructions plus bas dans le menu. Ceci générera un lien à copier-coller dans le head de notre HTML et d'utiliser le nom de la typographie dans le CSS.
 
 ## Combiner des fontes
 
