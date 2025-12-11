@@ -11,21 +11,19 @@ Depuis les débuts du web, la palette typographique à disposition des designers
 <span style="font-family: Verdana">Verdana</span>, 
 <span style="font-family: Georgia">Georgia</span>, 
 <span style="font-family: Times">Times</span>, 
-<span style="font-family: Courier">Courier</span>...), disponibles sur la grande majorité des systèmes d'exploitation.
+<span style="font-family: Courier">Courier</span>...), disponibles sur la grande majorité des systèmes d'exploitation (Apple, Microsoft ou Linux).
 
-Méthode classique: le "fontstack". 
+La méthode du "fontstack" était utilisée pour charger en CSS la fonte souhaitée, suivie par un certain nombre de fontes alternatives.
 
-Exemple, pour déclarer une fonte: 
+Un exemple, pour déclarer une fonte Helvetica Neue: 
 
 ```css
 body {
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
-   Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 ```
 
-Entre 2008 et 2010, tous les navigateurs ont implémenté le **CSS3 Fonts Module**, permettant de charger des fontes spécifiées par les styles CSS avec la propriété *@font-face*.
+Entre 2008 et 2010, tous les navigateurs ont implémenté le **CSS3 Fonts Module**, qui permet de charger des fontes spécifiées par les styles CSS avec la propriété *@font-face*. Ainsi la fonte est chargée à partir d'un fichier, et le design n'est plus limité aux fontes déjà installés sur les systèmes.
 
 
 ### @Fontface
@@ -39,7 +37,7 @@ La syntaxe @font-face fonctionne de la manière suivante:
 }
 ```
 
-Cette déclaration permet de charger la fonte, il faut ensuite l'appliquer. Par exemple comme ceci:
+Cette déclaration permet de charger la fonte. Il faut ensuite l'appliquer, sur certains éléments, ou sur l'ensemble du site. Par exemple comme ceci, pour définir la fonte par défaut sur la totalité du site:
 
 ```css
 body {
@@ -94,7 +92,7 @@ Le support des navigateurs pour les formats woff et woff2 ayant fait des progrè
 }
 ```
 
-La même syntaxe [est préconisée par Bram Stein](http://alistapart.com/article/using-webfonts) sur A List Apart en 2017.
+La même syntaxe [est préconisée par Bram Stein](http://alistapart.com/article/using-webfonts) sur A List Apart, déjà en 2017.
 
 Dans la période intiale des webfonts, entre 2011 - 2016, des syntaxes plus compliquées étaient utilisées, ajoutant d'autres formats comme SVG (pour appareils iOS), EOT (pour Internet Explorer) et TTF. Ces formats ne sont désormais plus nécessaires.
 
