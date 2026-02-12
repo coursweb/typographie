@@ -14,7 +14,7 @@ Slides: [présentation effectuée en 2018 à la HE-Arc, Neuchâtel](https://www.
 
 - [Using @font-face](https://css-tricks.com/snippets/css/using-font-face/) Chris Coyier, 2009
 - [Professional Web Typography](https://prowebtype.com/) par Donny Truong, 2015
-- [Typography Handbook](http://typographyhandbook.com/) par Kenneth Wang, 2016 
+- [Typography Handbook](https://web.archive.org/web/20230609221453/https://typographyhandbook.com/) par Kenneth Wang, 2016 
 
 ## Vidéos
 
