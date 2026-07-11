@@ -9,6 +9,9 @@ Quelques fontes typographiques intéressantes, en majeure partie sous licence li
 
 ## Bibliothèques de fontes:
 
+Velvetyne Libre Friends (une liste de fonderies open-source):  
+[https://velvetyne.fr/velvetyne-libre-friends/](https://velvetyne.fr/velvetyne-libre-friends/)
+
 Google Fonts:   
 [https://fonts.google.com/](https://fonts.google.com)
 
