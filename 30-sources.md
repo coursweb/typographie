@@ -23,12 +23,10 @@ Open Font Library:
 Les [Fontes typo IMD](https://code.eracom-pedagogique.ch/fontes-imd/), une sélection de fontes libres recommandées, pour la filière Interactive Media Designer à l'Eracom.
 
 Les "Hot 30", une sélection de 30 fontes libres, projet de Stefan Endress et Alastair O’Shea:  
-[http://www.open-foundry.com/hot30](http://www.open-foundry.com/hot30)
+[http://www.open-foundry.com/](http://www.open-foundry.com/)
 
 Use & Modify, sélection de fontes maintenue par Raphaël Bastide:  
 [http://usemodify.com/](http://usemodify.com/)
-
-[fonts.greatsimple.io](http://fonts.greatsimple.io/), cinq belles combinaisons de fontes, par Great Simple Studio.
 
 ![Combinaisons proposées par Great Simple Studio](img/greatsimple-combinations.png)
 
