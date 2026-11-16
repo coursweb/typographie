@@ -41,6 +41,9 @@ Les fontes du collectif Velvetyne Type Foundry:
 [https://velvetyne.fr/](https://velvetyne.fr/)  
 Lack, Avara, Sporting Grotesque, Steps Mono...
 
+Les fontes de Collletttivo:  
+[https://www.collletttivo.it/](https://www.collletttivo.it/)  
+
 Les fontes du collectif OSP (Open Source Publishing):   
 [http://osp.kitchen/foundry/](http://osp.kitchen/foundry/)   
 Limousine, Le Patin Helvète, Crickx...
