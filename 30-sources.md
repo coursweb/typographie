@@ -92,9 +92,17 @@ Ces services ont l'avantage de proposer un grand choix de fontes, provenant de f
 
 ## Google Fonts
 
+Les nouveautés de 2026 sur Google Fonts: 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/slides/HF09I8IrFFqWEHH5X2QPQA/New-Google-Fonts?node-id=1-42&embed-host=share" allowfullscreen></iframe>
+
+Voir aussi: 
+
+* [Nouvelles Google Fonts de 2024](https://ms-studio.net/notes/new-google-fonts-of-2024/)
+* [Nouvelles Google Fonts de 2023](https://ms-studio.net/notes/new-google-fonts-of-2023-part-3/)
+
 Depuis 2010, Google Fonts est un service d'hébergement gratuit de fontes pour le Web. Ces polices sont sous licences libres. Ceci nous permet d'inclure très rapidement une police dans le code. De plus, les fontes sont rangées par classifications. Elles sont affichées avec un lien de téléchargement, ce qui permet de les obtenir dans plusieurs formats tels que TrueType ou OpenType.
 
-Le projet est piloté depuis ses débuts par Dave Crossland, un alumni du master de design typogaphique de l'université de Reading, Angleterre.
+Le projet est piloté depuis ses débuts par Dave Crossland, un alumni du master de design typographique de l'université de Reading, Angleterre.
 
 ![Goodgle Fonts, une sélection de fontes Google par Frank Adebiaye.](img/goodgle-fonts.png)
 
