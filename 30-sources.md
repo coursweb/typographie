@@ -12,11 +12,16 @@ Quelques fontes typographiques intéressantes, en majeure partie sous licence li
 Velvetyne Libre Friends (une liste de fonderies open-source):  
 [https://velvetyne.fr/velvetyne-libre-friends/](https://velvetyne.fr/velvetyne-libre-friends/)
 
-Google Fonts:   
+Google Fonts:  
 [https://fonts.google.com/](https://fonts.google.com)
+
+Typothèque Bye Bye Binary:  
+[https://typotheque.byebyebinary.space/fr](https://typotheque.byebyebinary.space/fr)
 
 Open Font Library:  
 [https://fontlibrary.org](https://fontlibrary.org)
+
+Voir aussi: [liste de ressources de Mylène Dreyer](https://dreyer-eracom.notion.site/)
 
 #### Sélections de fontes libres
 
